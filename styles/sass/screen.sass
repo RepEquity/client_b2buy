@@ -1,0 +1,487 @@
+// Imports
+
+@import "base"
+@import "compass"
+
+/*---------------- Global Styles Start ---------------*/
+
+body
+	color: $dark_gray
+	font-family: "open-sans", sans-serif
+	
+	&.open
+		overflow: hidden
+
+.container
+	@include container($mobile)
+	padding: 0 5px
+
+	
+a
+	color: $teal
+	text-decoration: none
+
+	&.color-btn
+		color: white
+		text-decoration: none
+		background-color: $orange
+		padding: 15px 15px
+		@include border-radius(4px, 4px)
+		text-shadow: none
+		letter-spacing: 1px
+		text-transform: uppercase		
+		@include span(4 of 4)
+		box-sizing: border-box
+		text-align: center
+		margin-top: 20px
+
+p
+	font-size: 14px
+	font-weight: 500
+	&.featured
+		font-size: 16px
+	
+.content
+	@include span(4 of 4)
+	text-align: center
+	
+	
+	h2
+		font-size: 24px
+		font-weight: 600
+	
+	h3
+		font-size: 16px
+		font-weight: 600
+		
+
+
+.top-content
+	padding-bottom: 30px
+	
+.middle-content
+	+clearfix
+	color: #ffffff
+	background-color: $dark_gray	
+	padding-top: 10px
+	padding-bottom: 45px
+	text-align: center
+
+
+/*---------------- Global Styles End ---------------*/
+
+
+
+/*---------------- Header Styles Start ---------------*/
+#main-header
+	.container
+		height: 50px
+	
+#mobile-menu-icon
+	@include span(1 of 4)
+	font-size: 24px
+	font-weight: bold
+	padding: 13px 0
+	color: $gray
+	
+	&.open
+		color: $orange
+
+.social-media
+	text-align: center
+	img
+		width: 30px
+		height: 30px
+		margin: 10px
+	
+.copyright
+	text-align: center
+	
+#branding
+	@include span(2 of 4)
+	a
+		display: block
+		text-align: center
+		img
+			padding: 12px 0
+			width: 75px
+			height: 25px
+			margin: 0 auto
+
+#main-menu
+	display: none
+	position: absolute
+	z-index: 100
+	background-color: #ffffff
+	top: 50px
+	left: 0px
+	bottom: 0px
+	right: 0px
+	
+	.menu-container
+		position: absolute
+		width: 100%
+		top: 0px
+		bottom: 120px
+		overflow: auto
+		
+	ul
+		list-style-type: none
+		padding: 0
+		text-align: center
+		margin: 0
+			
+	
+	.header-menu
+		li
+			padding: 10px
+			&.current_page_item
+				background-color: $orange
+				a
+					color: #ffffff
+			a
+				text-transform: uppercase
+				color: $dark_gray
+				text-decoration: none
+				font-size: 18px
+				font-weight: 600
+	footer
+		position: absolute
+		bottom: 30px
+		width: 100%
+		
+				
+
+/*---------------- Header Styles End ---------------*/
+
+
+/*---------------- Footer Styles Start ---------------*/
+footer
+	font-size: 12px
+	.inner
+		padding: 30px 0
+	ul
+		padding: 0
+		margin: 0
+		font-size: 0
+		li
+			font-size: 12px
+			display: inline
+			padding: 0 6px
+			border-right: 1px solid $dark_gray
+			&:last-child
+				border: none	
+
+.footer-left
+	text-align: center
+
+
+/*---------------- Footer Styles End ---------------*/
+
+
+
+/*---------------- Home Page Start ---------------*/
+
+/* Slider */
+
+.flexslider
+	margin-bottom: 30px
+	.slides
+		
+		li
+			height: 1px
+			background-repeat: no-repeat
+			background-position: 75% top
+			background-size: cover
+			min-height: 500px
+			
+			
+		.content-wrapper
+			color: #ffffff
+			position: absolute
+			left: 0
+			right: 0
+			top: 0
+			bottom: 0
+			padding-top: 45px
+			background-color: rgba(0,0,0,.2)
+			
+			
+			.slider-content
+				height: 100%
+				font-size: 16px
+				font-weight: 600
+				text-shadow: 0px 2px 1px rgba(60, 60, 60, 1)
+				position: relative
+				
+				h2
+					@include span(4 of 4)
+					margin-bottom: 10px
+					font-size: 36px
+					font-weight: 600
+					text-shadow: 0px 2px 1px rgba(60, 60, 60, 1)
+				
+				p
+					@include span(3 of 4)
+					@include post(1 of 4)
+				
+				.btn-container
+					position: relative
+					font-size: 16px
+					font-weight: 600 
+					width: 100%	
+					display: block
+					height: 0px
+					.color-btn
+						position: absolute
+						top: 335px
+						margin-top: 0px
+					
+	.flex-control-nav
+		bottom: 17px
+		z-index: 10
+		
+		li
+			a
+				border: 1px solid #ffffff
+				background-color: transparent
+				@include box-shadow($gray 0px 0px 0px)
+				
+				&.flex-active
+					background-color: $orange
+					border: 1px solid $orange
+.home
+	.process
+		background-color: $darker_gray
+
+.process
+	+clearfix
+	color: #ffffff
+	padding-top: 10px
+	padding-bottom: 30px
+	
+	&.active
+		padding-bottom: 110px
+	
+	
+	h2
+		text-align: center
+	
+	ul
+		list-style-type: none
+		padding: 0
+		position: relative
+				
+		li
+			@include span(1 of 4)
+			.step
+				position: absolute
+				width: 100%
+				left: 0
+				text-align: center
+				margin-top: 30px
+				display: none
+				
+				
+			.count
+				position: relative
+				
+				img
+					width: 100%
+					
+					&.active
+						display: none
+				
+				.arrow
+					position: absolute
+					width: 10%
+					height: auto
+					top: 40%
+					left: -17%
+			.process-title
+				font-size: 16px
+				font-weight: 600
+				margin-bottom: 10px
+				
+			.process-content
+				font-size: 14px
+				
+			&.active
+				.count
+					img
+						&.inactive
+							display: none
+						&.active
+							display: block
+						
+				.step
+					display: block
+
+
+	
+.selling-categories
+	background-color: $light_gray
+	
+	ul
+		list-style-type: none
+		padding: 0 0 30px
+		text-align: center
+		margin: 0
+		
+		span
+			display: block
+			font-size: 16px
+		
+		a
+			font-size: 14px
+			
+		img
+			width: 150px
+			
+		.owl-buttons
+			position: relative
+			top: -150px
+			div.owl-prev, div.owl-next
+				position: absolute
+				text-indent: -9999px
+				background-color: transparent
+				background-repeat: no-repeat
+				height: 38px
+				width: 13px
+				
+			.owl-prev
+				left: 0
+				background-image: url(../img/ui/prev.png)
+				background-position: left center
+				background-size: 13px 35px
+
+			.owl-next
+				right: 0
+				background-image: url(../img/ui/next.png)
+				background-position: right center
+				background-size: 13px 35px
+
+
+/*---------------- Home Page End ---------------*/
+
+/*---------------- Page/Post Start ---------------*/
+.header-image
+	max-height: 600px
+	overflow: hidden
+	position: relative
+	img
+		width: 100%
+
+/* Videos */
+.video-wrapper
+	cursor: pointer
+	
+.ui-dialog
+	width: span(10 of 12) !important
+	background-color: transparent !important
+	-webkit-box-shadow: none !important
+	box-shadow: none !important
+	.ui-dialog-titlebar
+		background: transparent
+		border: none
+		.ui-button
+			right: -30px
+			top: 2px
+			&:focus
+				outline: none
+	.ui-dialog-content
+		position: relative
+		padding-bottom: 56.25%
+		padding-top: 30px
+		height: 0
+		overflow: hidden
+	 
+		iframe
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+
+.play-button
+	pointer-events: none
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0px
+	right: 0px
+	background: url(../img/play-button.png) center center no-repeat
+	background-size: 60px
+	background-color: transparent
+	background-color: rgba(0,0,0,.5)
+	
+
+
+/*---------------- Page/Post End ---------------*/
+
+/*---------------- Contact Page Start ---------------*/
+
+.gform_wrapper
+	width: 100%
+	margin: 30px 0
+	max-width: 100%
+	
+	.gfield_label
+		display: none !important
+	
+	input, select, option, input.medium, textarea
+		width: 100% !important
+		padding: 13px
+		box-sizing: border-box
+		height: 50px
+		font-size: 16px
+		@include border-radius(4px, 4px)
+		
+	select
+		margin: 10px 0px 20px
+		color: $orange
+		appearance: none
+		-moz-appearance: none
+		-webkit-appearance: none
+		background-image: url('../img/ui/arrow-down-orange.png')
+		background-repeat: no-repeat
+		background-position: right 13px center
+		background-size: 22px 13px
+		
+	input
+		margin: 10px 0px
+		
+	.gform_footer
+		margin: 0px
+		padding-top: 10px
+		
+		.gform_button
+			text-transform: uppercase
+			@include border-radius(4px, 4px)
+			color: #ffffff
+			background-color: $orange
+			border: none
+			font-size: 18px !important
+			
+.validation_error
+	color: #C89797 !important
+/*---------------- Contact Page End ---------------*/
+
+
+/*---------------- Tips Page Start ---------------*/
+.item
+	img
+		width: 50%
+		margin: 15px 0
+		
+	.item-content
+		margin: 15px 2.5% 30px
+		ul
+			font-size: 14px
+
+
+/*---------------- Tips Page End ---------------*/
+
+
+
+

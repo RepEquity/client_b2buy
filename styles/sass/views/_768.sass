@@ -1,0 +1,284 @@
+/*---------------- Global Styles Start ---------------*/
+
+body
+	color: $dark_gray
+	font-family: "open-sans", sans-serif
+	
+	&.open
+		overflow: hidden
+
+.container
+	@include container($large)
+	padding: 0 5px
+	
+.content
+	@include span(10 of 12)
+	@include pre(1 of 12)
+	@include post(1 of 12)
+	
+.page-id-23
+	.content
+		@include span(12 of 12)
+		
+		.contact-info
+			text-align: left
+
+
+	
+	h2
+		font-size: 36px
+		
+	h3
+		font-size: 18px
+
+.middle-content
+	text-align: center
+	
+a
+	&.color-btn
+		display: inline-block
+		width: auto
+		float: none
+
+p
+	font-size: 14px
+	font-weight: 500
+	&.featured
+		font-size: 18px
+	
+/*---------------- Global Styles End ---------------*/
+
+/*---------------- Header Styles Start ---------------*/
+#main-header
+	+clearfix
+	height: 85px
+	
+#mobile-menu-icon
+	display: none
+
+.social-media
+	text-align: right
+	img
+		width: 26px
+		height: 26px
+		margin: 5px
+	
+.copyright
+	
+	
+#branding
+	@include span(2 of 12)
+	a
+		display: block
+		text-align: left
+		img
+			padding: 20px 0
+			width: 120px
+			height: auto
+
+#main-menu
+	@include span(10 of 12)
+	display: block
+	position: relative
+	z-index: 100
+	background-color: transparent
+	height: 100%
+	
+	top: initial
+	left: initial
+	bottom: initial
+	right: initial
+	
+	.menu-container
+		position: relative
+		@include span(7.5 of 10)
+		top: initial
+		bottom: initial
+		overflow: auto
+		
+	ul
+		list-style-type: none
+		padding: 0
+		text-align: center
+		margin: 0
+		+clearfix
+			
+	
+	.header-menu
+		li
+			float: left
+			padding: 31px 20px
+			&.current_page_item
+				background-color: transparent
+				a
+					color: $orange
+			a
+				text-transform: uppercase
+				color: $dark_gray
+				text-decoration: none
+				font-size: 14px
+				font-weight: 600
+	footer
+		@include span(2.5 of 10 last)
+		position: relative
+		bottom: initial
+		padding: 24px 0
+		.copyright
+			display: none
+		.menu-footer-menu-container
+			display: none
+		
+				
+
+/*---------------- Header Styles End ---------------*/
+
+/*---------------- Footer Styles Start ---------------*/
+footer
+	font-size: 14px
+	.inner
+		+clearfix
+		padding-top: 30px
+		width: 570px
+		margin: 0 auto
+	ul
+		li
+			font-size: 14px
+.footer-left
+	+clearfix
+	width: 100%
+	.copyright
+		float: left
+		border-right: 1px solid $dark_gray
+		padding: 0px 6px
+	.menu-footer-menu-container
+		float: left
+
+
+/*---------------- Footer Styles End ---------------*/
+
+
+/*---------------- Home Page Start ---------------*/
+/* Slider */
+
+.flexslider
+	.slides
+		
+		li
+			
+			
+		.content-wrapper
+			
+			
+			.slider-content
+				
+				h2
+					@include span(5 of 12)
+					font-size: 48px
+				p
+					clear: left
+					@include span(5.5 of 12)
+					font-size: 18px
+				
+				.btn-container
+					.color-btn
+						width: auto
+						font-size: 18px
+						left: 0
+						top: 300px
+						margin: 0
+						margin-left: gutter(12)
+						
+						
+						
+					
+	.flex-control-nav
+				
+		li
+			a
+
+				&.flex-active
+					
+
+.process
+	+clearfix
+	color: #ffffff
+	padding-top: 10px
+	padding-bottom: 30px
+	
+	&.active
+		padding-bottom: 30px
+	
+	
+	h2
+		text-align: center
+	
+	ul
+		list-style-type: none
+		padding: 0
+		position: relative
+				
+		li
+			@include span(3 of 12)
+			.step
+				position: relative
+				
+			.count
+				img
+					width: 60%
+					margin: 0 auto
+					
+					&.inactive
+						display: block
+						
+				.arrow
+					top: 35%
+					left: -10%
+				
+/*---------------- Home Page End ---------------*/
+
+/*---------------- Tips Page Start ---------------*/
+.item
+	@include gallery(4 of 12)
+	&.single
+		img
+			width: 20%
+
+/*---------------- Tips Page End ---------------*/
+
+/*---------------- Contact Page Start ---------------*/
+.contact-info
+	@include span(3 of 12)
+	margin-top: 20px
+	
+.gform_wrapper
+	@include span(9 of 12)
+	margin-top: 10px
+	position: relative
+	height: 410px
+	
+	.gform_button
+		position: absolute
+		bottom: 0px
+		right: 0px
+		width: auto !important
+		padding-left: 40px
+		padding-right: 40px
+	
+	.left_half
+		@include span(3 of 9)
+		float: left
+		clear: left !important
+		
+	.right_half
+		width: span(6 of 9)
+		position: absolute
+		right: 0
+		top: 10px
+		
+		textarea
+			height: 300px
+		
+
+/*---------------- Contact Page End ---------------*/
+
+
