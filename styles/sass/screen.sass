@@ -273,19 +273,19 @@ footer
 		position: relative
 				
 		li
-			@include span(1 of 4)
+			@include span(4 of 4)
+			margin-bottom: 20px
 			.step
-				position: absolute
-				width: 100%
+				@include span(3 of 4)
 				left: 0
-				text-align: center
+				text-align: left
 				margin-top: 30px
-				display: none
+				display: block
 				
 				
 			.count
+				@include span(1 of 4)
 				position: relative
-				
 				img
 					width: 100%
 					
@@ -298,6 +298,13 @@ footer
 					height: auto
 					top: 40%
 					left: -17%
+					display: none
+				.arrow-down
+					display: block
+					width: 20%
+					height: auto
+					margin: 0 auto
+					margin-bottom: 20px
 			.process-title
 				font-size: 16px
 				font-weight: 600

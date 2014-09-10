@@ -390,8 +390,8 @@ body.open {
   margin-right: auto;
   padding: 0 5px;
 }
-/* line 12, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
-.container::after {
+/* line 12, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.container:after {
   content: " ";
   display: block;
   clear: both;
@@ -729,22 +729,29 @@ footer ul li:last-child {
 }
 /* line 275, sass/screen.sass */
 .process ul li {
+  width: 95%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+}
+/* line 278, sass/screen.sass */
+.process ul li .step {
+  width: 70%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  left: 0;
+  text-align: left;
+  margin-top: 30px;
+  display: block;
+}
+/* line 286, sass/screen.sass */
+.process ul li .count {
   width: 20%;
   float: left;
   margin-left: 2.5%;
   margin-right: 2.5%;
-}
-/* line 277, sass/screen.sass */
-.process ul li .step {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
-  margin-top: 30px;
-  display: none;
-}
-/* line 286, sass/screen.sass */
-.process ul li .count {
   position: relative;
 }
 /* line 289, sass/screen.sass */
@@ -762,60 +769,69 @@ footer ul li:last-child {
   height: auto;
   top: 40%;
   left: -17%;
+  display: none;
 }
-/* line 301, sass/screen.sass */
+/* line 302, sass/screen.sass */
+.process ul li .count .arrow-down {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* line 308, sass/screen.sass */
 .process ul li .process-title {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 306, sass/screen.sass */
+/* line 313, sass/screen.sass */
 .process ul li .process-content {
   font-size: 14px;
 }
-/* line 312, sass/screen.sass */
+/* line 319, sass/screen.sass */
 .process ul li.active .count img.inactive {
   display: none;
 }
-/* line 314, sass/screen.sass */
+/* line 321, sass/screen.sass */
 .process ul li.active .count img.active {
   display: block;
 }
-/* line 317, sass/screen.sass */
+/* line 324, sass/screen.sass */
 .process ul li.active .step {
   display: block;
 }
 
-/* line 322, sass/screen.sass */
+/* line 329, sass/screen.sass */
 .selling-categories {
   background-color: #f7f7f7;
 }
-/* line 325, sass/screen.sass */
+/* line 332, sass/screen.sass */
 .selling-categories ul {
   list-style-type: none;
   padding: 0 0 30px;
   text-align: center;
   margin: 0;
 }
-/* line 331, sass/screen.sass */
+/* line 338, sass/screen.sass */
 .selling-categories ul span {
   display: block;
   font-size: 16px;
 }
-/* line 335, sass/screen.sass */
+/* line 342, sass/screen.sass */
 .selling-categories ul a {
   font-size: 14px;
 }
-/* line 338, sass/screen.sass */
+/* line 345, sass/screen.sass */
 .selling-categories ul img {
   width: 150px;
 }
-/* line 341, sass/screen.sass */
+/* line 348, sass/screen.sass */
 .selling-categories ul .owl-buttons {
   position: relative;
   top: -150px;
 }
-/* line 344, sass/screen.sass */
+/* line 351, sass/screen.sass */
 .selling-categories ul .owl-buttons div.owl-prev, .selling-categories ul .owl-buttons div.owl-next {
   position: absolute;
   text-indent: -9999px;
@@ -824,14 +840,14 @@ footer ul li:last-child {
   height: 38px;
   width: 13px;
 }
-/* line 352, sass/screen.sass */
+/* line 359, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-prev {
   left: 0;
   background-image: url(../img/ui/prev.png);
   background-position: left center;
   background-size: 13px 35px;
 }
-/* line 358, sass/screen.sass */
+/* line 365, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-next {
   right: 0;
   background-image: url(../img/ui/next.png);
@@ -841,45 +857,45 @@ footer ul li:last-child {
 
 /*---------------- Home Page End --------------- */
 /*---------------- Page/Post Start --------------- */
-/* line 368, sass/screen.sass */
+/* line 375, sass/screen.sass */
 .header-image {
   max-height: 600px;
   overflow: hidden;
   position: relative;
 }
-/* line 372, sass/screen.sass */
+/* line 379, sass/screen.sass */
 .header-image img {
   width: 100%;
 }
 
 /* Videos */
-/* line 376, sass/screen.sass */
+/* line 383, sass/screen.sass */
 .video-wrapper {
   cursor: pointer;
 }
 
-/* line 379, sass/screen.sass */
+/* line 386, sass/screen.sass */
 .ui-dialog {
   width: 81.66667% !important;
   background-color: transparent !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 384, sass/screen.sass */
+/* line 391, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar {
   background: transparent;
   border: none;
 }
-/* line 387, sass/screen.sass */
+/* line 394, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button {
   right: -30px;
   top: 2px;
 }
-/* line 390, sass/screen.sass */
+/* line 397, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button:focus {
   outline: none;
 }
-/* line 392, sass/screen.sass */
+/* line 399, sass/screen.sass */
 .ui-dialog .ui-dialog-content {
   position: relative;
   padding-bottom: 56.25%;
@@ -887,7 +903,7 @@ footer ul li:last-child {
   height: 0;
   overflow: hidden;
 }
-/* line 399, sass/screen.sass */
+/* line 406, sass/screen.sass */
 .ui-dialog .ui-dialog-content iframe {
   position: absolute;
   top: 0;
@@ -896,7 +912,7 @@ footer ul li:last-child {
   height: 100%;
 }
 
-/* line 406, sass/screen.sass */
+/* line 413, sass/screen.sass */
 .play-button {
   pointer-events: none;
   position: absolute;
@@ -912,17 +928,17 @@ footer ul li:last-child {
 
 /*---------------- Page/Post End --------------- */
 /*---------------- Contact Page Start --------------- */
-/* line 424, sass/screen.sass */
+/* line 431, sass/screen.sass */
 .gform_wrapper {
   width: 100%;
   margin: 30px 0;
   max-width: 100%;
 }
-/* line 429, sass/screen.sass */
+/* line 436, sass/screen.sass */
 .gform_wrapper .gfield_label {
   display: none !important;
 }
-/* line 432, sass/screen.sass */
+/* line 439, sass/screen.sass */
 .gform_wrapper input, .gform_wrapper select, .gform_wrapper option, .gform_wrapper input.medium, .gform_wrapper textarea {
   width: 100% !important;
   padding: 13px;
@@ -933,7 +949,7 @@ footer ul li:last-child {
   -webkit-border-radius: 4px 4px;
   border-radius: 4px / 4px;
 }
-/* line 440, sass/screen.sass */
+/* line 447, sass/screen.sass */
 .gform_wrapper select {
   margin: 10px 0px 20px;
   color: #e28330;
@@ -945,16 +961,16 @@ footer ul li:last-child {
   background-position: right 13px center;
   background-size: 22px 13px;
 }
-/* line 451, sass/screen.sass */
+/* line 458, sass/screen.sass */
 .gform_wrapper input {
   margin: 10px 0px;
 }
-/* line 454, sass/screen.sass */
+/* line 461, sass/screen.sass */
 .gform_wrapper .gform_footer {
   margin: 0px;
   padding-top: 10px;
 }
-/* line 458, sass/screen.sass */
+/* line 465, sass/screen.sass */
 .gform_wrapper .gform_footer .gform_button {
   text-transform: uppercase;
   -moz-border-radius: 4px / 4px;
@@ -966,23 +982,23 @@ footer ul li:last-child {
   font-size: 18px !important;
 }
 
-/* line 466, sass/screen.sass */
+/* line 473, sass/screen.sass */
 .validation_error {
   color: #c89797 !important;
 }
 
 /*---------------- Contact Page End --------------- */
 /*---------------- Tips Page Start --------------- */
-/* line 473, sass/screen.sass */
+/* line 480, sass/screen.sass */
 .item img {
   width: 50%;
   margin: 15px 0;
 }
-/* line 477, sass/screen.sass */
+/* line 484, sass/screen.sass */
 .item .item-content {
   margin: 15px 2.5% 30px;
 }
-/* line 479, sass/screen.sass */
+/* line 486, sass/screen.sass */
 .item .item-content ul {
   font-size: 14px;
 }
@@ -1069,13 +1085,13 @@ footer ul li:last-child {
     width: 48.33333%;
     float: left;
   }
-  /* line 63, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
   .item:nth-child(2n + 1) {
     margin-left: 0.83333%;
     margin-right: -100%;
     clear: both;
   }
-  /* line 63, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
   .item:nth-child(2n + 2) {
     margin-left: 50.83333%;
     margin-right: -100%;
@@ -1138,8 +1154,8 @@ footer ul li:last-child {
     margin-right: auto;
     padding: 0 5px;
   }
-  /* line 12, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
-  .container::after {
+  /* line 12, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .container:after {
     content: " ";
     display: block;
     clear: both;
@@ -1415,55 +1431,68 @@ footer ul li:last-child {
   /* line 222, sass/views/_768.sass */
   .process ul li .step {
     position: relative;
+    width: 100%;
+    float: none;
+    text-align: center;
   }
-  /* line 226, sass/views/_768.sass */
+  /* line 227, sass/views/_768.sass */
+  .process ul li .count {
+    width: 100%;
+    float: none;
+  }
+  /* line 230, sass/views/_768.sass */
   .process ul li .count img {
     width: 60%;
     margin: 0 auto;
   }
-  /* line 230, sass/views/_768.sass */
+  /* line 234, sass/views/_768.sass */
   .process ul li .count img.inactive {
     display: block;
   }
-  /* line 233, sass/views/_768.sass */
+  /* line 237, sass/views/_768.sass */
   .process ul li .count .arrow {
     top: 35%;
     left: -10%;
+    display: block;
+  }
+  /* line 241, sass/views/_768.sass */
+  .process ul li .count .arrow-down {
+    display: none;
   }
 
   /*---------------- Home Page End --------------- */
   /*---------------- Tips Page Start --------------- */
-  /* line 240, sass/views/_768.sass */
+  /* line 247, sass/views/_768.sass */
   .item {
     width: 31.66667%;
     float: left;
   }
-  /* line 63, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
   .item:nth-child(3n + 1) {
     margin-left: 0.83333%;
     margin-right: -100%;
     clear: both;
   }
-  /* line 63, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
   .item:nth-child(3n + 2) {
     margin-left: 34.16667%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 63, ../../../../../../../.rvm/gems/ruby-2.0.0-p353/gems/susy-2.1.1/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../../.rvm/gems/ruby-2.1.1/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
   .item:nth-child(3n + 3) {
     margin-left: 67.5%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 243, sass/views/_768.sass */
+  /* line 250, sass/views/_768.sass */
   .item.single img {
     width: 20%;
   }
 
   /*---------------- Tips Page End --------------- */
   /*---------------- Contact Page Start --------------- */
-  /* line 249, sass/views/_768.sass */
+  /* line 256, sass/views/_768.sass */
   .contact-info {
     width: 23.33333%;
     float: left;
@@ -1472,7 +1501,7 @@ footer ul li:last-child {
     margin-top: 20px;
   }
 
-  /* line 253, sass/views/_768.sass */
+  /* line 260, sass/views/_768.sass */
   .gform_wrapper {
     width: 73.33333%;
     float: left;
@@ -1482,7 +1511,7 @@ footer ul li:last-child {
     position: relative;
     height: 410px;
   }
-  /* line 259, sass/views/_768.sass */
+  /* line 266, sass/views/_768.sass */
   .gform_wrapper .gform_button {
     position: absolute;
     bottom: 0px;
@@ -1491,7 +1520,7 @@ footer ul li:last-child {
     padding-left: 40px;
     padding-right: 40px;
   }
-  /* line 267, sass/views/_768.sass */
+  /* line 274, sass/views/_768.sass */
   .gform_wrapper .left_half {
     width: 31.11111%;
     float: left;
@@ -1500,14 +1529,14 @@ footer ul li:last-child {
     float: left;
     clear: left !important;
   }
-  /* line 272, sass/views/_768.sass */
+  /* line 279, sass/views/_768.sass */
   .gform_wrapper .right_half {
     width: 64.44444%;
     position: absolute;
     right: 0;
     top: 10px;
   }
-  /* line 278, sass/views/_768.sass */
+  /* line 285, sass/views/_768.sass */
   .gform_wrapper .right_half textarea {
     height: 300px;
   }

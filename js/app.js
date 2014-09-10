@@ -1596,17 +1596,17 @@ jQuery(document).ready(function($) {
 	});
 	
 	
-	$(".process li").on('click', function(){
-		$(this).toggleClass('active');
-		if($isMobile){
-			$(this).siblings().removeClass('active');
-		}
-		if($('.process li').hasClass('active')) {
-			$('.process').addClass('active');
-		}else{
-			$('.process').removeClass('active');
-		}
-	})
+	// $(".process li").on('click', function(){
+	// 	$(this).toggleClass('active');
+	// 	if($isMobile){
+	// 		$(this).siblings().removeClass('active');
+	// 	}
+	// 	if($('.process li').hasClass('active')) {
+	// 		$('.process').addClass('active');
+	// 	}else{
+	// 		$('.process').removeClass('active');
+	// 	}
+	// })
 
 	    
 });
