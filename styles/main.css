@@ -443,8 +443,8 @@ p.featured {
 }
 /* line 49, sass/screen.sass */
 .content h2 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
 }
 /* line 53, sass/screen.sass */
 .content h3 {
