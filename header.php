@@ -9,7 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <?php wp_head(); ?>
-		<!--link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico"-->
+		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		
 		<!-- OnFocus OnBlur GravityForms -->
 		<script type="text/javascript">
