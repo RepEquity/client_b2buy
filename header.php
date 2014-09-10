@@ -6,10 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
         <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
         <?php wp_head(); ?>
-		<script type="text/javascript" src="//use.typekit.net/god6oqv.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<!--link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico"-->
 		
 		<!-- OnFocus OnBlur GravityForms -->
