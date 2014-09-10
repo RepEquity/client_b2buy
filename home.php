@@ -103,6 +103,8 @@ $tsc = get_field('top_selling_categories', 'options');
 			pagination: false,
 			scrollPerPage: true
 		});
+
+		$('.owl-carousel').addClass('clearfix');
 				
 	});
 	
