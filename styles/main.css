@@ -1509,41 +1509,45 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     margin-bottom: 0;
   }
-  /* line 208, sass/views/_768.sass */
+  /* line 209, sass/views/_768.sass */
+  .process ul li:first-child .count {
+    margin-top: 0;
+  }
+  /* line 211, sass/views/_768.sass */
   .process ul li .step {
     position: relative;
     width: 100%;
     float: none;
     text-align: center;
   }
-  /* line 213, sass/views/_768.sass */
+  /* line 216, sass/views/_768.sass */
   .process ul li .count {
     width: 100%;
     float: none;
   }
-  /* line 216, sass/views/_768.sass */
+  /* line 219, sass/views/_768.sass */
   .process ul li .count img {
     width: 60%;
     margin: 0 auto;
   }
-  /* line 220, sass/views/_768.sass */
+  /* line 223, sass/views/_768.sass */
   .process ul li .count img.inactive {
     display: block;
   }
-  /* line 223, sass/views/_768.sass */
+  /* line 226, sass/views/_768.sass */
   .process ul li .count .arrow {
     top: 40%;
     left: -15px;
     display: block;
   }
-  /* line 227, sass/views/_768.sass */
+  /* line 230, sass/views/_768.sass */
   .process ul li .count .arrow-down {
     display: none;
   }
 
   /*---------------- Home Page End --------------- */
   /*---------------- Tips Page Start --------------- */
-  /* line 233, sass/views/_768.sass */
+  /* line 236, sass/views/_768.sass */
   .item {
     width: 31.66667%;
     float: left;
@@ -1566,14 +1570,14 @@ footer ul li:last-child {
     margin-right: -100%;
     clear: none;
   }
-  /* line 236, sass/views/_768.sass */
+  /* line 239, sass/views/_768.sass */
   .item.single img {
     width: 130px;
   }
 
   /*---------------- Tips Page End --------------- */
   /*---------------- Contact Page Start --------------- */
-  /* line 241, sass/views/_768.sass */
+  /* line 244, sass/views/_768.sass */
   .contact-info {
     width: 23.33333%;
     float: left;
@@ -1582,7 +1586,7 @@ footer ul li:last-child {
     margin-top: 20px;
   }
 
-  /* line 245, sass/views/_768.sass */
+  /* line 248, sass/views/_768.sass */
   .gform_wrapper {
     width: 73.33333%;
     float: left;
@@ -1592,7 +1596,7 @@ footer ul li:last-child {
     position: relative;
     height: 410px;
   }
-  /* line 251, sass/views/_768.sass */
+  /* line 254, sass/views/_768.sass */
   .gform_wrapper .gform_button {
     position: absolute;
     bottom: 0px;
@@ -1601,7 +1605,7 @@ footer ul li:last-child {
     padding-left: 40px;
     padding-right: 40px;
   }
-  /* line 259, sass/views/_768.sass */
+  /* line 262, sass/views/_768.sass */
   .gform_wrapper .left_half {
     width: 31.11111%;
     float: left;
@@ -1610,14 +1614,14 @@ footer ul li:last-child {
     float: left;
     clear: left !important;
   }
-  /* line 264, sass/views/_768.sass */
+  /* line 267, sass/views/_768.sass */
   .gform_wrapper .right_half {
     width: 64.44444%;
     position: absolute;
     right: 0;
     top: 10px;
   }
-  /* line 270, sass/views/_768.sass */
+  /* line 273, sass/views/_768.sass */
   .gform_wrapper .right_half textarea {
     height: 300px;
   }
