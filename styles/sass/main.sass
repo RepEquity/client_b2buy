@@ -14,3 +14,20 @@
 @import "screen"
 @import "views/mq"
 @import "_retina"
+
+//IE fixes
+//Hack targetting ie 10 and 11 for manual styling. TO DO: fix actual functionality later
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+	.social-media
+		margin-top: -20px
+
+	#main-menu
+		.menu-container
+			margin-top: -50px
+.ie
+	.social-media
+		margin-top: -20px
+
+	#main-menu
+		.menu-container
+			margin-top: -50px

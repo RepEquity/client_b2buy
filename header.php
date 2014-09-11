@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
+
+<!--[if IE 7]><html <?php language_attributes(); ?> class="no-js ie ie7"><![endif]-->
+<!--[if IE 8]><html <?php language_attributes(); ?> class="no-js ie ie8"><![endif]-->
+<!--[if IE 9]><html <?php language_attributes(); ?> class="no-js ie ie9"><![endif]-->
+<!--[if !IE]><!--><html <?php language_attributes(); ?> class="no-js"><!--<![endif]-->
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -8,6 +12,9 @@
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="screen" />
+        <!--[if IE]>
+			
+        <![endif]-->
         <?php wp_head(); ?>
 		<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
 		
@@ -33,7 +40,13 @@
 
 		</script>
 
-		
+		<script>
+			var ua = window.navigator.userAgent;
+	        var msie = ua.indexOf("MSIE ");
+			if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
+			 $("html").addClass("ie");
+			}
+		</script>
 
     </head>
     
