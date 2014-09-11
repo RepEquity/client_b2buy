@@ -40,6 +40,7 @@
 									<div class="count">
 										<?php if ($i > 1) : ?>
 											<img class="arrow" src="<?php echo get_template_directory_uri(); ?>/img/ui/process-arrow.png" alt="Arrow" />
+											<img class="arrow-down" src="<?php echo get_template_directory_uri(); ?>/img/ui/process-arrow-down.png" alt="Arrow" />
 										<?php endif; ?>
 										
 										<img class="inactive" src="<?php echo $step['step_img']['url']; ?>" alt="<?php echo $step['step_img']['alt']; ?>" />

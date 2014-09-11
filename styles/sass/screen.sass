@@ -306,14 +306,15 @@ footer
 		li
 			@include span(4 of 4)
 			margin-bottom: 20px
+			&:first-child
+				.count
+					margin-top: 30px
 			.step
 				@include span(3 of 4)
 				left: 0
 				text-align: left
-				margin-top: 30px
+				margin-top: 35px
 				display: block
-				
-				
 			.count
 				@include span(1 of 4)
 				position: relative
@@ -325,7 +326,7 @@ footer
 				
 				.arrow
 					position: absolute
-					width: 10%
+					width: 15px
 					height: auto
 					top: 40%
 					left: -17%
