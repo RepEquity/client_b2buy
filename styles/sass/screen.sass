@@ -7,7 +7,7 @@
 
 body
 	color: $dark_gray
-	font-family: "open-sans", sans-serif
+	font-family: "Open Sans", sans-serif
 	
 	&.open
 		overflow: hidden
@@ -37,6 +37,9 @@ a
 		box-sizing: border-box
 		text-align: center
 		margin-top: 20px
+		@include transition(.2s all)
+		&:hover
+			background-color: $hoverorange
 
 p
 	font-size: 14px
@@ -145,7 +148,6 @@ p
 			a
 				text-transform: uppercase
 				color: $dark_gray
-				font-family: 'Open Sans Condensed', sans-serif
 				text-decoration: none
 				font-size: 18px
 				font-weight: 600
@@ -223,7 +225,7 @@ footer
 					margin-bottom: 10px
 					font-size: 36px
 					font-weight: 600
-					line-height: 62px
+					line-height: 48px
 					text-shadow: 0px 2px 1px rgba(60, 60, 60, 1)
 				
 				p
@@ -269,6 +271,18 @@ footer
 .home
 	.process
 		background-color: $darker_gray
+	.middle-content
+		h2
+			margin-top: 0
+		p
+			margin-bottom: 0
+	.top-content
+		p
+			&:first-child
+				margin-top: 0
+			&:last-child
+				margin-bottom: 0
+
 
 .process
 	+clearfix
@@ -287,7 +301,8 @@ footer
 		list-style-type: none
 		padding: 0
 		position: relative
-				
+		margin-bottom: 0
+		margin-top: 0
 		li
 			@include span(4 of 4)
 			margin-bottom: 20px
@@ -343,6 +358,8 @@ footer
 
 .owl-theme .owl-controls .owl-buttons div
 	opacity: 1
+.owl-theme .owl-controls
+	margin-top: 0
 
 .selling-categories
 	background-color: $light_gray
@@ -445,7 +462,8 @@ footer
 /*---------------- Page/Post End ---------------*/
 
 /*---------------- Contact Page Start ---------------*/
-
+#gform_confirmation_message_1
+	text-align: left
 .gform_wrapper
 	width: 100%
 	margin: 30px 0
@@ -487,7 +505,10 @@ footer
 			background-color: $orange
 			border: none
 			font-size: 18px !important
-			
+@-moz-document url-prefix() 
+	.gform_wrapper
+		select
+			background-image: none
 .validation_error
 	color: #C89797 !important
 /*---------------- Contact Page End ---------------*/

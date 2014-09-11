@@ -8,7 +8,7 @@ Syntax error: Undefined variable: "$dark_gray".
 7: 
 8: body
 9: 	color: $dark_gray
-10: 	font-family: "open-sans", sans-serif
+10: 	font-family: "Open Sans", sans-serif
 11: 	
 12: 	&.open
 13: 		overflow: hidden
@@ -67,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dark_gray\".\A         on line 9 of /Users/tedikonda/unison/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass\A \A 4: @import \"compass\"\A 5: \A 6: /*---------------- Global Styles Start ---------------*/\A 7: \A 8: body\A 9: 	color: $dark_gray\A 10: 	font-family: \"open-sans\", sans-serif\A 11: 	\A 12: 	&.open\A 13: 		overflow: hidden\A 14: 		height: 100%"; }
+  content: "Syntax error: Undefined variable: \"$dark_gray\".\A         on line 9 of /Users/tedikonda/unison/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass\A \A 4: @import \"compass\"\A 5: \A 6: /*---------------- Global Styles Start ---------------*/\A 7: \A 8: body\A 9: 	color: $dark_gray\A 10: 	font-family: \"Open Sans\", sans-serif\A 11: 	\A 12: 	&.open\A 13: 		overflow: hidden\A 14: 		height: 100%"; }
