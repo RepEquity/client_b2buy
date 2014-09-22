@@ -57,7 +57,7 @@
 				<div class="">
 					<span id="mobile-menu-icon" class="icon-menu"></span>
 					<div id="branding">
-						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/b2buy-logo.png" alt="Morehead Logo" /></a>
+						<a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/b2buy-logo.png" alt="B2Buy Logo" /></a>
 					</div>
 				</div>
 				<nav id="main-menu">
