@@ -1,70 +1,72 @@
 /*
 Syntax error: Undefined variable: "$dark_gray".
-        on line 9 of /Users/tedikonda/unison/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass
-
-4: @import "compass"
-5: 
-6: /*---------------- Global Styles Start ---------------*\/
-7: 
-8: body
-9: 	color: $dark_gray
-10: 	font-family: "Open Sans", sans-serif
-11: 	
-12: 	&.open
-13: 		overflow: hidden
-14: 		height: 100%
+        on line 9 of /Users/davidmills/Documents/aptana_projects/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass
 
 Backtrace:
-/Users/tedikonda/unison/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass:9
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:79:in `block in with_base'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:121:in `with_frame'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:79:in `with_base'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:389:in `map'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:79:in `block in with_base'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:121:in `with_frame'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/stack.rb:79:in `with_base'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:151:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/tree/root_node.rb:20:in `render'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/engine.rb:274:in `render'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:214:in `block in update_stylesheets'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:208:in `each'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:208:in `update_stylesheets'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:462:in `on_file_changed'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/lib/sass/plugin/compiler.rb:324:in `block in watch'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/tedikonda/.rvm/gems/ruby-2.1.1/gems/sass-3.3.14/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/Users/davidmills/Documents/aptana_projects/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass:9
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/script/tree/node.rb:50:in `perform'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:366:in `visit_prop'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:121:in `with_frame'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:79:in `with_base'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:389:in `map'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:121:in `with_frame'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/stack.rb:79:in `with_base'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/tree/root_node.rb:20:in `render'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.6/lib/sass/engine.rb:274:in `render'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:171:in `block (2 levels) in compile'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:166:in `block in compile'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/logger.rb:46:in `red'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:165:in `compile'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:144:in `compile_if_required'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:129:in `block (2 levels) in run'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `each'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:127:in `block in run'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:153:in `timed'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/compiler.rb:126:in `run'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/compiler.rb:24:in `compile'
+/Users/davidmills/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `compile'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:101:in `sass_modified'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:89:in `sass_callback'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/watch.rb:14:in `call'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/watch.rb:14:in `run_callback'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:69:in `block in listen_callback'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:66:in `each'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/compass-1.0.0.alpha.19/lib/compass/watcher/project_watcher.rb:66:in `listen_callback'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/listener.rb:236:in `call'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/listener.rb:271:in `block in initialize_adapter'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/adapter.rb:244:in `call'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/adapter.rb:244:in `report_changes'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/adapter.rb:313:in `poll_changed_directories'
+/Users/davidmills/.rvm/gems/ruby-2.0.0-p353/gems/listen-1.1.6/lib/listen/adapter.rb:289:in `block in start_poller'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$dark_gray\".\A         on line 9 of /Users/tedikonda/unison/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass\A \A 4: @import \"compass\"\A 5: \A 6: /*---------------- Global Styles Start ---------------*/\A 7: \A 8: body\A 9: 	color: $dark_gray\A 10: 	font-family: \"Open Sans\", sans-serif\A 11: 	\A 12: 	&.open\A 13: 		overflow: hidden\A 14: 		height: 100%"; }
+  content: "Syntax error: Undefined variable: \"$dark_gray\".\A         on line 9 of /Users/davidmills/Documents/aptana_projects/b2buy/wp-content/themes/b2buy/styles/sass/screen.sass"; }
