@@ -30,11 +30,6 @@ $tsc = get_field('top_selling_categories', 'options');
 			</ul>
 		</div>
 	<?php endif; ?>
-	<?php get_template_part('parts/top-content'); ?>
-	<?php get_template_part('parts/middle-content'); ?>
-
-	
-	
 	<?php if( $process_steps ) : ?>
 		<section class="process">
 			<div class="container">
@@ -73,7 +68,8 @@ $tsc = get_field('top_selling_categories', 'options');
 			</div>
 		</section>
 	<?php endif; ?>
-	
+	<?php get_template_part('parts/top-content'); ?>
+	<?php get_template_part('parts/middle-content'); ?>
 	<?php if( $tsc ) : ?>
 		<section class="selling-categories">
 			<div class="container">
