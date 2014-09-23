@@ -695,14 +695,15 @@ footer ul li:last-child {
 }
 /* line 247, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content .btn-container .color-btn.dark {
-  background-color: #29343d;
+  color: #29343d;
+  background-color: #c1cbd8;
 }
-/* line 250, sass/screen.sass */
+/* line 251, sass/screen.sass */
 .flexslider .flex-control-nav {
   bottom: 17px;
   z-index: 10;
 }
-/* line 255, sass/screen.sass */
+/* line 256, sass/screen.sass */
 .flexslider .flex-control-nav li a {
   border: 1px solid white;
   background-color: transparent;
@@ -710,55 +711,55 @@ footer ul li:last-child {
   -webkit-box-shadow: #c3c5c8 0px 0px 0px;
   box-shadow: #c3c5c8 0px 0px 0px;
 }
-/* line 260, sass/screen.sass */
+/* line 261, sass/screen.sass */
 .flexslider .flex-control-nav li a.flex-active {
   background-color: #e28330;
   border: 1px solid #e28330;
 }
 
-/* line 265, sass/screen.sass */
+/* line 266, sass/screen.sass */
 .home .wrapper > section {
   padding: 60px 0;
 }
-/* line 267, sass/screen.sass */
+/* line 268, sass/screen.sass */
 .home .process, .home .selling-categories {
   padding: 60px 0;
 }
-/* line 270, sass/screen.sass */
+/* line 271, sass/screen.sass */
 .home .process .content h2, .home .selling-categories .content h2 {
   margin-top: 0;
 }
-/* line 272, sass/screen.sass */
+/* line 273, sass/screen.sass */
 .home .process ul, .home .selling-categories ul {
   padding-bottom: 0;
 }
-/* line 274, sass/screen.sass */
+/* line 275, sass/screen.sass */
 .home .flexslider {
   margin-bottom: 0;
 }
 
-/* line 277, sass/screen.sass */
+/* line 278, sass/screen.sass */
 .home .process {
   background-color: #29343d;
 }
-/* line 280, sass/screen.sass */
+/* line 281, sass/screen.sass */
 .home .middle-content h2 {
   margin-top: 0;
 }
-/* line 282, sass/screen.sass */
+/* line 283, sass/screen.sass */
 .home .middle-content p {
   margin-bottom: 0;
 }
-/* line 286, sass/screen.sass */
+/* line 287, sass/screen.sass */
 .home .top-content p:first-child {
   margin-top: 0;
 }
-/* line 288, sass/screen.sass */
+/* line 289, sass/screen.sass */
 .home .top-content p:last-child {
   margin-bottom: 0;
 }
 
-/* line 292, sass/screen.sass */
+/* line 293, sass/screen.sass */
 .process {
   overflow: hidden;
   *zoom: 1;
@@ -766,15 +767,15 @@ footer ul li:last-child {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 298, sass/screen.sass */
+/* line 299, sass/screen.sass */
 .process.active {
   padding-bottom: 110px;
 }
-/* line 302, sass/screen.sass */
+/* line 303, sass/screen.sass */
 .process h2 {
   text-align: center;
 }
-/* line 305, sass/screen.sass */
+/* line 306, sass/screen.sass */
 .process ul {
   list-style-type: none;
   padding: 0;
@@ -782,7 +783,7 @@ footer ul li:last-child {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 311, sass/screen.sass */
+/* line 312, sass/screen.sass */
 .process ul li {
   width: 95%;
   float: left;
@@ -790,11 +791,11 @@ footer ul li:last-child {
   margin-right: 2.5%;
   margin-bottom: 20px;
 }
-/* line 315, sass/screen.sass */
+/* line 316, sass/screen.sass */
 .process ul li:first-child .count {
   margin-top: 30px;
 }
-/* line 317, sass/screen.sass */
+/* line 318, sass/screen.sass */
 .process ul li .step {
   width: 70%;
   float: left;
@@ -805,7 +806,7 @@ footer ul li:last-child {
   margin-top: 35px;
   display: block;
 }
-/* line 323, sass/screen.sass */
+/* line 324, sass/screen.sass */
 .process ul li .count {
   width: 20%;
   float: left;
@@ -813,15 +814,15 @@ footer ul li:last-child {
   margin-right: 2.5%;
   position: relative;
 }
-/* line 326, sass/screen.sass */
+/* line 327, sass/screen.sass */
 .process ul li .count img {
   width: 100%;
 }
-/* line 329, sass/screen.sass */
+/* line 330, sass/screen.sass */
 .process ul li .count img.active {
   display: none;
 }
-/* line 332, sass/screen.sass */
+/* line 333, sass/screen.sass */
 .process ul li .count .arrow {
   position: absolute;
   width: 15px;
@@ -830,7 +831,7 @@ footer ul li:last-child {
   left: -17%;
   display: none;
 }
-/* line 339, sass/screen.sass */
+/* line 340, sass/screen.sass */
 .process ul li .count .arrow-down {
   display: block;
   width: 20%;
@@ -838,69 +839,69 @@ footer ul li:last-child {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 345, sass/screen.sass */
+/* line 346, sass/screen.sass */
 .process ul li .process-title {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 350, sass/screen.sass */
+/* line 351, sass/screen.sass */
 .process ul li .process-content {
   font-size: 14px;
 }
-/* line 356, sass/screen.sass */
+/* line 357, sass/screen.sass */
 .process ul li.active .count img.inactive {
   display: none;
 }
-/* line 358, sass/screen.sass */
+/* line 359, sass/screen.sass */
 .process ul li.active .count img.active {
   display: block;
 }
-/* line 361, sass/screen.sass */
+/* line 362, sass/screen.sass */
 .process ul li.active .step {
   display: block;
 }
 
-/* line 365, sass/screen.sass */
+/* line 366, sass/screen.sass */
 .owl-theme .owl-controls .owl-buttons div {
   opacity: 1;
 }
 
-/* line 367, sass/screen.sass */
+/* line 368, sass/screen.sass */
 .owl-theme .owl-controls {
   margin-top: 0;
 }
 
-/* line 370, sass/screen.sass */
+/* line 371, sass/screen.sass */
 .selling-categories {
   background-color: #f7f7f7;
 }
-/* line 373, sass/screen.sass */
+/* line 374, sass/screen.sass */
 .selling-categories ul {
   list-style-type: none;
   padding: 0 0 30px;
   text-align: center;
   margin: 0;
 }
-/* line 379, sass/screen.sass */
+/* line 380, sass/screen.sass */
 .selling-categories ul span {
   display: block;
   font-size: 16px;
 }
-/* line 383, sass/screen.sass */
+/* line 384, sass/screen.sass */
 .selling-categories ul a {
   font-size: 14px;
 }
-/* line 386, sass/screen.sass */
+/* line 387, sass/screen.sass */
 .selling-categories ul img {
   width: 150px;
 }
-/* line 389, sass/screen.sass */
+/* line 390, sass/screen.sass */
 .selling-categories ul .owl-buttons {
   position: relative;
   top: -150px;
 }
-/* line 392, sass/screen.sass */
+/* line 393, sass/screen.sass */
 .selling-categories ul .owl-buttons div.owl-prev, .selling-categories ul .owl-buttons div.owl-next {
   position: absolute;
   text-indent: -9999px;
@@ -909,14 +910,14 @@ footer ul li:last-child {
   height: 38px;
   width: 13px;
 }
-/* line 400, sass/screen.sass */
+/* line 401, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-prev {
   left: 0;
   background-image: url(../img/ui/prev.png);
   background-position: left center;
   background-size: 13px 35px;
 }
-/* line 406, sass/screen.sass */
+/* line 407, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-next {
   right: 0;
   background-image: url(../img/ui/next.png);
@@ -926,45 +927,45 @@ footer ul li:last-child {
 
 /*---------------- Home Page End --------------- */
 /*---------------- Page/Post Start --------------- */
-/* line 416, sass/screen.sass */
+/* line 417, sass/screen.sass */
 .header-image {
   max-height: 600px;
   overflow: hidden;
   position: relative;
 }
-/* line 420, sass/screen.sass */
+/* line 421, sass/screen.sass */
 .header-image img {
   width: 100%;
 }
 
 /* Videos */
-/* line 424, sass/screen.sass */
+/* line 425, sass/screen.sass */
 .video-wrapper {
   cursor: pointer;
 }
 
-/* line 427, sass/screen.sass */
+/* line 428, sass/screen.sass */
 .ui-dialog {
   width: 81.66667% !important;
   background-color: transparent !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 432, sass/screen.sass */
+/* line 433, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar {
   background: transparent;
   border: none;
 }
-/* line 435, sass/screen.sass */
+/* line 436, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button {
   right: -30px;
   top: 2px;
 }
-/* line 438, sass/screen.sass */
+/* line 439, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button:focus {
   outline: none;
 }
-/* line 440, sass/screen.sass */
+/* line 441, sass/screen.sass */
 .ui-dialog .ui-dialog-content {
   position: relative;
   padding-bottom: 56.25%;
@@ -972,7 +973,7 @@ footer ul li:last-child {
   height: 0;
   overflow: hidden;
 }
-/* line 447, sass/screen.sass */
+/* line 448, sass/screen.sass */
 .ui-dialog .ui-dialog-content iframe {
   position: absolute;
   top: 0;
@@ -981,7 +982,7 @@ footer ul li:last-child {
   height: 100%;
 }
 
-/* line 454, sass/screen.sass */
+/* line 455, sass/screen.sass */
 .play-button {
   pointer-events: none;
   position: absolute;
@@ -997,22 +998,22 @@ footer ul li:last-child {
 
 /*---------------- Page/Post End --------------- */
 /*---------------- Contact Page Start --------------- */
-/* line 471, sass/screen.sass */
+/* line 472, sass/screen.sass */
 #gform_confirmation_message_1 {
   text-align: left;
 }
 
-/* line 473, sass/screen.sass */
+/* line 474, sass/screen.sass */
 .gform_wrapper {
   width: 100%;
   margin: 30px 0;
   max-width: 100%;
 }
-/* line 478, sass/screen.sass */
+/* line 479, sass/screen.sass */
 .gform_wrapper .gfield_label {
   display: none !important;
 }
-/* line 481, sass/screen.sass */
+/* line 482, sass/screen.sass */
 .gform_wrapper input, .gform_wrapper select, .gform_wrapper option, .gform_wrapper input.medium, .gform_wrapper textarea {
   width: 100% !important;
   padding: 13px;
@@ -1023,7 +1024,7 @@ footer ul li:last-child {
   -webkit-border-radius: 4px 4px;
   border-radius: 4px / 4px;
 }
-/* line 489, sass/screen.sass */
+/* line 490, sass/screen.sass */
 .gform_wrapper select {
   margin: 10px 0px 20px;
   color: #e28330;
@@ -1035,16 +1036,16 @@ footer ul li:last-child {
   background-position: right 13px center;
   background-size: 22px 13px;
 }
-/* line 500, sass/screen.sass */
+/* line 501, sass/screen.sass */
 .gform_wrapper input {
   margin: 10px 0px;
 }
-/* line 503, sass/screen.sass */
+/* line 504, sass/screen.sass */
 .gform_wrapper .gform_footer {
   margin: 0px;
   padding-top: 10px;
 }
-/* line 507, sass/screen.sass */
+/* line 508, sass/screen.sass */
 .gform_wrapper .gform_footer .gform_button {
   text-transform: uppercase;
   -moz-border-radius: 4px / 4px;
@@ -1057,28 +1058,28 @@ footer ul li:last-child {
 }
 
 @-moz-document url-prefix() {
-  /* line 516, sass/screen.sass */
+  /* line 517, sass/screen.sass */
   .gform_wrapper select {
     background-image: none;
   }
 }
-/* line 518, sass/screen.sass */
+/* line 519, sass/screen.sass */
 .validation_error {
   color: #c89797 !important;
 }
 
 /*---------------- Contact Page End --------------- */
 /*---------------- Tips Page Start --------------- */
-/* line 525, sass/screen.sass */
+/* line 526, sass/screen.sass */
 .item img {
   width: 50%;
   margin: 15px 0;
 }
-/* line 529, sass/screen.sass */
+/* line 530, sass/screen.sass */
 .item .item-content {
   margin: 15px 2.5% 30px;
 }
-/* line 531, sass/screen.sass */
+/* line 532, sass/screen.sass */
 .item .item-content ul {
   font-size: 14px;
 }
