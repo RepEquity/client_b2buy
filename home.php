@@ -17,10 +17,17 @@ $tsc = get_field('top_selling_categories', 'options');
 							<div class="slider-content container">
 								<h2><?php echo $slide['slider_title']; ?></h2>
 								<p><?php echo $slide['slider_content']; ?></p>
-								<?php if( $slide['slider_link'] ) : ?>
-									<span class="btn-container clearfix">
-									    <a class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?></a>
-									</span>
+								<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
+									<div class="btn-container clearfix">
+										<?php if( $slide['slider_link'] ) : ?>
+										    <a class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
+										    </a>
+										<?php endif; ?>
+										<?php if( $slide['slider_link_two'] ) : ?> 
+										    <a class="color-btn dark" href="<?php echo $slide['slider_link_two']; ?>" ><?php echo $slide['slider_link_text_two']; ?>
+										    </a>
+										<?php endif; ?>
+									</div>
 								<?php endif; ?>
 							</div>
 						</div>
