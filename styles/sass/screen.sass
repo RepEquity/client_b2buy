@@ -189,6 +189,7 @@ footer
 	left: 0
 	background-color: #e89c59
 	white-space: nowrap
+	z-index: 100
 	
 	.title
 		display: none
@@ -201,13 +202,14 @@ footer
 		background-color: #e28330
 		position: absolute
 		left: 0
+		z-index: 10
 	ul
 		display: inline
 		position: relative
 		top: 8px
 		white-space: nowrap
 		list-style-type: none
-		z-index: -1
+		z-index: 5
 		
 		li
 			display: inline
@@ -223,6 +225,7 @@ footer
 		right: 0
 		top: 0
 		background-color: #e28330
+		z-index: 10
 		
 		&.pause
 			background-image: url(../img/ui/ticker_pause.png) 

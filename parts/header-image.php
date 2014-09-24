@@ -13,6 +13,26 @@
 			echo '<div class="video-wrapper">';
 		}
 		echo '<img class="'.(($video_link) ? 'video' : '').'" '.(($video_link) ? 'data-video="video-'.$post->post_name.'"' : '').' src="'.$url[0].'" alt="'.image_alt($id).'"/>';
+		?>
+		<div class="content-wrapper ">
+			<div class="slider-content container">
+				<h2><?php echo $slide['slider_title']; ?></h2>
+				<p><?php echo $slide['slider_content']; ?></p>
+				<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
+					<div class="btn-container clearfix">
+						<?php if( $slide['slider_link'] ) : ?>
+						    <a class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
+						    </a>
+						<?php endif; ?>
+						<?php if( $slide['slider_link_two'] ) : ?> 
+						    <a class="color-btn dark" href="<?php echo $slide['slider_link_two']; ?>" ><?php echo $slide['slider_link_text_two']; ?>
+						    </a>
+						<?php endif; ?>
+					</div>
+				<?php endif; ?>
+			</div>
+		</div>
+		<?php
 		if($video_link) {
 			echo '<div class="play-button"></div>';
 			echo '</div>';
