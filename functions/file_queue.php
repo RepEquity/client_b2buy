@@ -34,6 +34,7 @@ function engueue_b2buy_scripts() {
 	wp_register_script('app_js', get_template_directory_uri().'/js/app.js', array('jquery'), FALSE, TRUE );
 	wp_register_script( 'google_maps', 'http://maps.googleapis.com/maps/api/js?sensor=false');
 	wp_register_script('flexslider', get_stylesheet_directory_uri().'/js/jquery.flexslider-min.js', array('jquery'));
+	wp_register_script('marquee', get_stylesheet_directory_uri().'/js/jquery.marquee.min.js', array('jquery'));
 	wp_register_script('flexslider-init', get_stylesheet_directory_uri().'/js/flexslider-init.js', array('jquery', 'flexslider'));
 	
 	
@@ -45,6 +46,7 @@ function engueue_b2buy_scripts() {
 	wp_enqueue_script( 'flexslider');
 	wp_enqueue_script( 'flexslider-init');
 	wp_enqueue_script( 'jquery-ui-dialog' );
+	wp_enqueue_script( 'marquee' );
 
 	
 }

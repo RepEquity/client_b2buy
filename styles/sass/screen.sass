@@ -181,7 +181,61 @@ footer
 .footer-left
 	text-align: center
 
+.ticker
+	height: 40px
+	position: fixed
+	bottom: 0
+	right: 0
+	left: 0
+	background-color: #e89c59
+	white-space: nowrap
+	
+	.title
+		display: none
+		color: #ffffff
+		font-size: 14px
+		text-transform: uppercase
+		padding: 10px 30px
+		box-sizing: border-box
+		height: 100%
+		background-color: #e28330
+		position: absolute
+		left: 0
+	ul
+		display: inline
+		position: relative
+		top: 8px
+		white-space: nowrap
+		list-style-type: none
+		z-index: -1
+		
+		li
+			display: inline
+			color: #ffffff
+			font-size: 14px
+			padding: 10px 50px
+			height: 100%
 
+	.controls
+		width: 50px
+		height: 40px
+		position: absolute
+		right: 0
+		top: 0
+		background-color: #e28330
+		
+		&.pause
+			background-image: url(../img/ui/ticker_pause.png) 
+			background-position: center center 
+			background-repeat: no-repeat
+			background-size: 50%
+		
+		&.play
+			background-image: url(../img/ui/ticker_play.png) 
+			background-position: center center 
+			background-repeat: no-repeat
+			background-size: 50%
+	
 /*---------------- Footer Styles End ---------------*/
 
 
@@ -287,7 +341,9 @@ footer
 				margin-top: 0
 			&:last-child
 				margin-bottom: 0
-
+	footer
+		&.container
+			margin-bottom: 40px
 
 .process
 	+clearfix

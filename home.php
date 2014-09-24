@@ -37,6 +37,8 @@ $tsc = get_field('top_selling_categories', 'options');
 			</ul>
 		</div>
 	<?php endif; ?>
+	<?php get_template_part('parts/top-content'); ?>
+	<?php get_template_part('parts/middle-content'); ?>
 	<?php if( $process_steps ) : ?>
 		<section class="process">
 			<div class="container">
@@ -75,8 +77,6 @@ $tsc = get_field('top_selling_categories', 'options');
 			</div>
 		</section>
 	<?php endif; ?>
-	<?php get_template_part('parts/top-content'); ?>
-	<?php get_template_part('parts/middle-content'); ?>
 	<?php if( $tsc ) : ?>
 		<section class="selling-categories">
 			<div class="container">
@@ -113,4 +113,42 @@ $tsc = get_field('top_selling_categories', 'options');
 	
 	
 </script>
+<?php $items = get_field('ticker_items', 'options'); ?>
+<?php if( $items ) : ?>
+	<div class="ticker">
+		<div class="title">
+			<?php echo get_field('ticker_title', 'options'); ?>
+		</div>
+		<ul class="items">
+			<?php 
+				foreach( $items as $item ){
+					echo '<li>'.$item['item_content'].'</li>';
+				}
+			?>
+		</ul>
+		<div class="controls pause">
+			
+		</div>
+	</div>
+	<script>
+		jQuery( document ).ready(function($) {
+		    var $mq = $('.ticker').marquee({
+			    duration: 10000,
+		    });
+		    
+		    $('.controls').on('click', function(){
+			    if($('.controls').hasClass('play')) {
+				    $mq.marquee('resume'); 
+					$('.controls').removeClass('play').addClass('pause');
+			    } else {
+				    $mq.marquee('pause');
+					$('.controls').removeClass('pause').addClass('play');
+			    }
+		    })		    	
+		});
+		
+		
+	</script>
+<?php endif; ?>
+
 <?php get_footer(); ?>
