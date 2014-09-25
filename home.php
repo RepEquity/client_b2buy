@@ -133,7 +133,7 @@ $tsc = get_field('top_selling_categories', 'options');
 	<script>
 		jQuery( document ).ready(function($) {
 		    var $mq = $('.ticker').marquee({
-			    duration: 10000,
+			    duration: 15000,
 		    });
 		    
 		    $('.controls').on('click', function(){
