@@ -1184,6 +1184,80 @@ footer ul li:last-child {
 }
 
 /*---------------- Tips Page End --------------- */
+/*---------------- How To B2Buy Page Start --------------- */
+/* line 619, sass/screen.sass */
+.page-template-how-to-b2buy-php .middle-content {
+  padding: 0;
+}
+
+/* line 623, sass/screen.sass */
+.how-to {
+  background-color: #313e48;
+  color: white;
+  margin-top: -30px;
+}
+/* line 627, sass/screen.sass */
+.how-to .wrapper {
+  padding: 50px 0;
+}
+/* line 629, sass/screen.sass */
+.how-to .dark {
+  background-color: #29343d;
+}
+/* line 632, sass/screen.sass */
+.how-to .icon {
+  width: 45%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-left: 27.5%;
+  margin-right: 27.5%;
+  text-align: center;
+}
+/* line 638, sass/screen.sass */
+.how-to .icon img {
+  width: 100%;
+  margin: 15px 0;
+}
+/* line 642, sass/screen.sass */
+.how-to .hcontent {
+  width: 95%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: center;
+}
+/* line 646, sass/screen.sass */
+.how-to .hcontent ul {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style-position: inside;
+  padding-left: 0px;
+}
+/* line 654, sass/screen.sass */
+.how-to .hcontent ul li {
+  padding: 5px 0;
+}
+/* line 657, sass/screen.sass */
+.how-to .screenshot {
+  width: 95%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+/* line 660, sass/screen.sass */
+.how-to .screenshot img {
+  width: 100%;
+}
+/* line 663, sass/screen.sass */
+.how-to .bottom {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/*---------------- How To B2Buy Page End --------------- */
 @media print {
   /* line 1, sass/views/_print.sass */
   * {
@@ -1766,6 +1840,71 @@ footer ul li:last-child {
   }
 
   /*---------------- Contact Page End --------------- */
+  /*---------------- How To B2Buy Page Start --------------- */
+  /* line 297, sass/views/_768.sass */
+  .page-template-how-to-b2buy-php .middle-content {
+    padding: 0;
+  }
+
+  /* line 301, sass/views/_768.sass */
+  .how-to {
+    background-color: #313e48;
+    color: white;
+  }
+  /* line 305, sass/views/_768.sass */
+  .how-to .dark {
+    background-color: #29343d;
+  }
+  /* line 308, sass/views/_768.sass */
+  .how-to .icon {
+    width: 15%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+    text-align: center;
+  }
+  /* line 312, sass/views/_768.sass */
+  .how-to .icon img {
+    width: 100%;
+    margin: 15px 0;
+  }
+  /* line 316, sass/views/_768.sass */
+  .how-to .hcontent {
+    width: 40%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+    margin-right: 9.16667%;
+    text-align: left;
+  }
+  /* line 321, sass/views/_768.sass */
+  .how-to .hcontent ul {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* line 327, sass/views/_768.sass */
+  .how-to .hcontent ul li {
+    padding: 5px 0;
+  }
+  /* line 330, sass/views/_768.sass */
+  .how-to .screenshot {
+    width: 31.66667%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+  /* line 333, sass/views/_768.sass */
+  .how-to .screenshot img {
+    width: 100%;
+  }
+  /* line 336, sass/views/_768.sass */
+  .how-to .bottom {
+    padding-top: 30px;
+  }
+
+  /*---------------- How To B2Buy Page End --------------- */
 }
 /* Retina Displays */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {

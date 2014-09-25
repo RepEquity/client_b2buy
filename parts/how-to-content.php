@@ -7,14 +7,16 @@
 		$items = get_field('items', $post->ID);
 		$buttons = get_field('add_button', $post->ID);
 		$process_steps = get_field('process_steps', 'options');
+		$howto = get_field('howto', $post->ID);
+		$top_content = get_field('top_content', $page->ID);
 		
 	}
 ?>
-<?php if( $middle_content ) : ?>
+<?php if( $top_content ) : ?>
 	<section class="middle-content">
 		<div class="container">
 			<div class="content">
-				<?php echo $middle_content; ?>
+				<?php echo $top_content; ?>
 				<?php if($items) : ?>
 				<?php foreach($items as $item) : ?>
 					<div class="item">
@@ -27,48 +29,40 @@
 			<?php endif; ?>
 			</div>
 		</div>
-			<?php if( $process_steps ) : ?>
-				<section class="process">
-					<div class="container">
-						
-						<ul>
-							<?php $i=0; ?>
-							<?php $count = count($process_steps); ?>
-							<?php foreach( $process_steps as $step ) : ?>
-								<?php $i++; ?>
-								<li>
-									<div class="count">
-										<?php if ($i > 1) : ?>
-											<img class="arrow" src="<?php echo get_template_directory_uri(); ?>/img/ui/process-arrow.png" alt="Arrow" />
-											<img class="arrow-down" src="<?php echo get_template_directory_uri(); ?>/img/ui/process-arrow-down.png" alt="Arrow" />
-										<?php endif; ?>
-										
-										<img class="inactive" src="<?php echo $step['step_img']['url']; ?>" alt="<?php echo $step['step_img']['alt']; ?>" />
-										<img class="active" src="<?php echo $step['step_img_active']['url']; ?>" alt="<?php echo $step['step_img_active']['alt']; ?>"> 
-										
-										
-									</div>
-									
-									<div class="step">
-										<div class="process-title"><?php echo $step['process_title']; ?></div>
-										<div class="process-content"><?php echo $step['process_content']; ?></div>
-									</div>
-									
-								</li>
-								
-							<?php endforeach; ?>
-						</ul>
-						
-						
-					</div>
-				</section>
-			<?php endif; ?>
-		<div class="container">
-			<?php if( $buttons ) : ?>
-				<?php foreach( $buttons as $button ) : ?>
-				<a class="color-btn" href="<?php echo $button['button_link']; ?>"><?php echo $button['button_text']; ?></a>
-				<?php endforeach; ?>
-			<?php endif; ?>
-		</div>
 	</section>
+	<?php if( $howto ) : ?>
+	<section class="how-to">
+		<?php $i = 0; ?>
+		<?php foreach( $howto as $how_item ) : ?>
+			<div class="wrapper <?php if($i%2 != 0){echo 'dark';} ?>">
+				<div class="container">
+					<div class="icon">
+						<img src="<?php echo $how_item['icon']['url']; ?>" alt="<?php echo $how_item['icon']['alt']; ?>"/>
+					</div>
+					<div class="hcontent">
+						<?php echo $how_item['content']; ?>
+					</div>
+					<div class="screenshot">
+						<img src="<?php echo $how_item['screenshot']['url']; ?>" alt="<?php echo $how_item['screenshot']['alt']; ?>"/>
+					</div>
+				</div>
+			</div>
+			<?php $i++; ?>
+		<?php endforeach; ?>
+			<div class="bottom wrapper <?php if($i%2 != 0){echo 'dark';} ?>">
+				<div class="container">
+					<div class="content">
+						<?php echo $middle_content; ?>
+					</div>
+					<?php if( $buttons ) : ?>
+						<?php foreach( $buttons as $button ) : ?>
+						<a class="color-btn" href="<?php echo $button['button_link']; ?>"><?php echo $button['button_text']; ?></a>
+						<?php endforeach; ?>
+					<?php endif; ?>
+				</div>
+			</div>
+	</section>
+<?php endif; ?>
+	
+	
 <?php endif; ?>
