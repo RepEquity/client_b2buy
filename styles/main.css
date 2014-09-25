@@ -1201,14 +1201,18 @@ footer ul li:last-child {
   margin-top: -30px;
 }
 /* line 626, sass/screen.sass */
+.how-to .content {
+  color: white;
+}
+/* line 628, sass/screen.sass */
 .how-to .wrapper {
   padding: 50px 0;
 }
-/* line 628, sass/screen.sass */
+/* line 630, sass/screen.sass */
 .how-to .dark {
   background-color: #29343d;
 }
-/* line 631, sass/screen.sass */
+/* line 633, sass/screen.sass */
 .how-to .icon {
   width: 45%;
   float: left;
@@ -1218,12 +1222,12 @@ footer ul li:last-child {
   margin-right: 27.5%;
   text-align: center;
 }
-/* line 637, sass/screen.sass */
+/* line 639, sass/screen.sass */
 .how-to .icon img {
   width: 100%;
   margin: 15px 0;
 }
-/* line 641, sass/screen.sass */
+/* line 643, sass/screen.sass */
 .how-to .hcontent {
   width: 95%;
   float: left;
@@ -1231,31 +1235,30 @@ footer ul li:last-child {
   margin-right: 2.5%;
   text-align: center;
 }
-/* line 645, sass/screen.sass */
+/* line 647, sass/screen.sass */
 .how-to .hcontent ul {
   font-size: 14px;
   font-weight: 500;
   padding-top: 10px;
   padding-bottom: 10px;
-  list-style-position: inside;
-  padding-left: 0px;
+  padding-left: 20px;
 }
-/* line 653, sass/screen.sass */
+/* line 654, sass/screen.sass */
 .how-to .hcontent ul li {
   padding: 5px 0;
 }
-/* line 656, sass/screen.sass */
+/* line 657, sass/screen.sass */
 .how-to .screenshot {
   width: 95%;
   float: left;
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
-/* line 659, sass/screen.sass */
+/* line 660, sass/screen.sass */
 .how-to .screenshot img {
   width: 100%;
 }
-/* line 662, sass/screen.sass */
+/* line 663, sass/screen.sass */
 .how-to .bottom {
   padding-top: 30px;
   text-align: center;
