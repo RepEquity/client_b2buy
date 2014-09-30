@@ -134,6 +134,7 @@ $tsc = get_field('top_selling_categories', 'options');
 		jQuery( document ).ready(function($) {
 		    var $mq = $('.ticker').marquee({
 			    duration: 20000,
+			    duplicated: true
 		    });
 		    
 		    $('.controls').on('click', function(){

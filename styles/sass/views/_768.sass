@@ -264,15 +264,15 @@ footer
 	@include span(9 of 12)
 	margin-top: 10px
 	position: relative
-	height: 410px
+	
 	
 	.gform_button
-		position: absolute
-		bottom: 0px
-		right: 0px
+		position: relative
+		margin-right: gutter(9)
 		width: auto !important
 		padding-left: 40px
 		padding-right: 40px
+		float: right
 	
 	.left_half
 		@include span(3 of 9)
@@ -280,13 +280,26 @@ footer
 		clear: left !important
 		
 	.right_half
-		width: span(6 of 9)
-		position: absolute
-		right: 0
-		top: 10px
-		
+		@include span(6 of 9)
+		clear: none !important
+		float: right
+		position: relative
+		top: -130px
+			
 		textarea
 			height: 300px
+			margin-bottom: -130px
+			
+		&.gfield_error
+			textarea
+				margin-bottom: 0px
+	li.gfield_error ~ li
+		top: 0
+		
+		textarea
+			margin-bottom: 0px	
+	
+		
 		
 
 /*---------------- Contact Page End ---------------*/

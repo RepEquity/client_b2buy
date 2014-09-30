@@ -1106,22 +1106,22 @@ footer ul li:last-child {
 
 /*---------------- Page/Post End --------------- */
 /*---------------- Contact Page Start --------------- */
-/* line 552, sass/screen.sass */
+/* line 553, sass/screen.sass */
 #gform_confirmation_message_1 {
   text-align: left;
 }
 
-/* line 554, sass/screen.sass */
+/* line 555, sass/screen.sass */
 .gform_wrapper {
   width: 100%;
   margin: 30px 0;
   max-width: 100%;
 }
-/* line 559, sass/screen.sass */
+/* line 560, sass/screen.sass */
 .gform_wrapper .gfield_label {
   display: none !important;
 }
-/* line 562, sass/screen.sass */
+/* line 563, sass/screen.sass */
 .gform_wrapper input, .gform_wrapper select, .gform_wrapper option, .gform_wrapper input.medium, .gform_wrapper textarea {
   width: 100% !important;
   padding: 13px;
@@ -1132,7 +1132,7 @@ footer ul li:last-child {
   -webkit-border-radius: 4px 4px;
   border-radius: 4px / 4px;
 }
-/* line 570, sass/screen.sass */
+/* line 571, sass/screen.sass */
 .gform_wrapper select {
   margin: 10px 0px 20px;
   color: #e28330;
@@ -1144,16 +1144,16 @@ footer ul li:last-child {
   background-position: right 13px center;
   background-size: 22px 13px;
 }
-/* line 581, sass/screen.sass */
+/* line 582, sass/screen.sass */
 .gform_wrapper input {
   margin: 10px 0px;
 }
-/* line 584, sass/screen.sass */
+/* line 585, sass/screen.sass */
 .gform_wrapper .gform_footer {
   margin: 0px;
   padding-top: 10px;
 }
-/* line 588, sass/screen.sass */
+/* line 589, sass/screen.sass */
 .gform_wrapper .gform_footer .gform_button {
   text-transform: uppercase;
   -moz-border-radius: 4px / 4px;
@@ -1166,53 +1166,53 @@ footer ul li:last-child {
 }
 
 @-moz-document url-prefix() {
-  /* line 597, sass/screen.sass */
+  /* line 598, sass/screen.sass */
   .gform_wrapper select {
     background-image: none;
   }
 }
-/* line 599, sass/screen.sass */
+/* line 600, sass/screen.sass */
 .validation_error {
   color: #c89797 !important;
 }
 
 /*---------------- Contact Page End --------------- */
 /*---------------- Tips Page Start --------------- */
-/* line 606, sass/screen.sass */
+/* line 607, sass/screen.sass */
 .item img {
   width: 50%;
   margin: 15px 0;
 }
-/* line 610, sass/screen.sass */
+/* line 611, sass/screen.sass */
 .item .item-content {
   margin: 15px 2.5% 30px;
 }
-/* line 612, sass/screen.sass */
+/* line 613, sass/screen.sass */
 .item .item-content ul {
   font-size: 14px;
 }
 
 /*---------------- Tips Page End --------------- */
 /*---------------- How To B2Buy Page Start --------------- */
-/* line 622, sass/screen.sass */
+/* line 623, sass/screen.sass */
 .how-to {
   background-color: #313e48;
   color: white;
   margin-top: -30px;
 }
-/* line 626, sass/screen.sass */
+/* line 627, sass/screen.sass */
 .how-to .content {
   color: white;
 }
-/* line 628, sass/screen.sass */
+/* line 629, sass/screen.sass */
 .how-to .wrapper {
   padding: 50px 0;
 }
-/* line 630, sass/screen.sass */
+/* line 631, sass/screen.sass */
 .how-to .dark {
   background-color: #29343d;
 }
-/* line 633, sass/screen.sass */
+/* line 634, sass/screen.sass */
 .how-to .icon {
   width: 45%;
   float: left;
@@ -1222,12 +1222,12 @@ footer ul li:last-child {
   margin-right: 27.5%;
   text-align: center;
 }
-/* line 639, sass/screen.sass */
+/* line 640, sass/screen.sass */
 .how-to .icon img {
   width: 100%;
   margin: 15px 0;
 }
-/* line 643, sass/screen.sass */
+/* line 644, sass/screen.sass */
 .how-to .hcontent {
   width: 95%;
   float: left;
@@ -1235,7 +1235,7 @@ footer ul li:last-child {
   margin-right: 2.5%;
   text-align: center;
 }
-/* line 647, sass/screen.sass */
+/* line 648, sass/screen.sass */
 .how-to .hcontent ul {
   font-size: 14px;
   font-weight: 500;
@@ -1243,22 +1243,22 @@ footer ul li:last-child {
   padding-bottom: 10px;
   padding-left: 20px;
 }
-/* line 654, sass/screen.sass */
+/* line 655, sass/screen.sass */
 .how-to .hcontent ul li {
   padding: 5px 0;
 }
-/* line 657, sass/screen.sass */
+/* line 658, sass/screen.sass */
 .how-to .screenshot {
   width: 95%;
   float: left;
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
-/* line 660, sass/screen.sass */
+/* line 661, sass/screen.sass */
 .how-to .screenshot img {
   width: 100%;
 }
-/* line 663, sass/screen.sass */
+/* line 664, sass/screen.sass */
 .how-to .bottom {
   padding-top: 30px;
   text-align: center;
@@ -1814,16 +1814,15 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     margin-top: 10px;
     position: relative;
-    height: 410px;
   }
   /* line 269, sass/views/_768.sass */
   .gform_wrapper .gform_button {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+    position: relative;
+    margin-right: 1.11111%;
     width: auto !important;
     padding-left: 40px;
     padding-right: 40px;
+    float: right;
   }
   /* line 277, sass/views/_768.sass */
   .gform_wrapper .left_half {
@@ -1837,27 +1836,44 @@ footer ul li:last-child {
   /* line 282, sass/views/_768.sass */
   .gform_wrapper .right_half {
     width: 64.44444%;
-    position: absolute;
-    right: 0;
-    top: 10px;
+    float: left;
+    margin-left: 1.11111%;
+    margin-right: 1.11111%;
+    clear: none !important;
+    float: right;
+    position: relative;
+    top: -130px;
   }
-  /* line 288, sass/views/_768.sass */
+  /* line 289, sass/views/_768.sass */
   .gform_wrapper .right_half textarea {
     height: 300px;
+    margin-bottom: -130px;
+  }
+  /* line 294, sass/views/_768.sass */
+  .gform_wrapper .right_half.gfield_error textarea {
+    margin-bottom: 0px;
+  }
+  /* line 296, sass/views/_768.sass */
+  .gform_wrapper li.gfield_error ~ li {
+    top: 0;
+  }
+  /* line 299, sass/views/_768.sass */
+  .gform_wrapper li.gfield_error ~ li textarea {
+    margin-bottom: 0px;
   }
 
   /*---------------- Contact Page End --------------- */
   /*---------------- How To B2Buy Page Start --------------- */
-  /* line 299, sass/views/_768.sass */
+  /* line 312, sass/views/_768.sass */
   .how-to {
     background-color: #313e48;
     color: white;
   }
-  /* line 303, sass/views/_768.sass */
+  /* line 316, sass/views/_768.sass */
   .how-to .dark {
     background-color: #29343d;
   }
-  /* line 306, sass/views/_768.sass */
+  /* line 319, sass/views/_768.sass */
   .how-to .icon {
     width: 15%;
     float: left;
@@ -1865,12 +1881,12 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     text-align: center;
   }
-  /* line 310, sass/views/_768.sass */
+  /* line 323, sass/views/_768.sass */
   .how-to .icon img {
     width: 100%;
     margin: 15px 0;
   }
-  /* line 314, sass/views/_768.sass */
+  /* line 327, sass/views/_768.sass */
   .how-to .hcontent {
     width: 40%;
     float: left;
@@ -1879,29 +1895,29 @@ footer ul li:last-child {
     margin-right: 9.16667%;
     text-align: left;
   }
-  /* line 319, sass/views/_768.sass */
+  /* line 332, sass/views/_768.sass */
   .how-to .hcontent ul {
     font-size: 14px;
     font-weight: 500;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* line 325, sass/views/_768.sass */
+  /* line 338, sass/views/_768.sass */
   .how-to .hcontent ul li {
     padding: 5px 0;
   }
-  /* line 328, sass/views/_768.sass */
+  /* line 341, sass/views/_768.sass */
   .how-to .screenshot {
     width: 31.66667%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
   }
-  /* line 331, sass/views/_768.sass */
+  /* line 344, sass/views/_768.sass */
   .how-to .screenshot img {
     width: 100%;
   }
-  /* line 334, sass/views/_768.sass */
+  /* line 347, sass/views/_768.sass */
   .how-to .bottom {
     padding-top: 30px;
   }
