@@ -101,6 +101,7 @@ $tsc = get_field('top_selling_categories', 'options');
 			controlNav: false,
 			animation: "fade",
 			slideshow: true, 
+			animationSpeed: 1500,
 		});
 		
 		$("#tsc").owlCarousel({
