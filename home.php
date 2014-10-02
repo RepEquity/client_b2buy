@@ -97,7 +97,10 @@ $tsc = get_field('top_selling_categories', 'options');
 <script>
 	jQuery(document).ready(function($){
 		$('.flexslider').flexslider({
-			directionNav: false
+			directionNav: false,
+			controlNav: false,
+			animation: "fade",
+			slideshow: true, 
 		});
 		
 		$("#tsc").owlCarousel({
