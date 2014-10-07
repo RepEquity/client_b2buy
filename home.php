@@ -137,7 +137,7 @@ $tsc = get_field('top_selling_categories', 'options');
 	<script>
 		jQuery( document ).ready(function($) {
 		    var $mq = $('.ticker').marquee({
-			    duration: 20000,
+			    duration: <?php echo get_field('marquee_duration', 'options'); ?>,
 			    duplicated: true
 		    });
 		    
