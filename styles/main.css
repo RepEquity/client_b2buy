@@ -666,11 +666,12 @@ footer ul li:last-child {
 .ticker {
   height: 40px;
   position: relative;
+  overflow: hidden;
   background-color: #e89c59;
   white-space: nowrap;
   z-index: 100;
 }
-/* line 213, sass/screen.sass */
+/* line 214, sass/screen.sass */
 .ticker .title {
   display: none;
   color: white;
@@ -684,7 +685,7 @@ footer ul li:last-child {
   left: 0;
   z-index: 10;
 }
-/* line 225, sass/screen.sass */
+/* line 226, sass/screen.sass */
 .ticker ul {
   display: inline;
   position: relative;
@@ -693,7 +694,7 @@ footer ul li:last-child {
   list-style-type: none;
   z-index: 5;
 }
-/* line 233, sass/screen.sass */
+/* line 234, sass/screen.sass */
 .ticker ul li {
   display: inline;
   color: white;
@@ -701,7 +702,7 @@ footer ul li:last-child {
   padding: 10px 50px;
   height: 100%;
 }
-/* line 240, sass/screen.sass */
+/* line 241, sass/screen.sass */
 .ticker .controls {
   width: 50px;
   height: 40px;
@@ -711,14 +712,14 @@ footer ul li:last-child {
   background-color: #e28330;
   z-index: 10;
 }
-/* line 249, sass/screen.sass */
+/* line 250, sass/screen.sass */
 .ticker .controls.pause {
   background-image: url(../img/ui/ticker_pause.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 50%;
 }
-/* line 255, sass/screen.sass */
+/* line 256, sass/screen.sass */
 .ticker .controls.play {
   background-image: url(../img/ui/ticker_play.png);
   background-position: center center;
@@ -729,11 +730,11 @@ footer ul li:last-child {
 /*---------------- Footer Styles End --------------- */
 /*---------------- Home Page Start --------------- */
 /* Slider */
-/* line 269, sass/screen.sass */
+/* line 270, sass/screen.sass */
 .flexslider {
   margin-bottom: 30px;
 }
-/* line 273, sass/screen.sass */
+/* line 274, sass/screen.sass */
 .flexslider .slides li {
   height: 1px;
   background-repeat: no-repeat;
@@ -741,7 +742,7 @@ footer ul li:last-child {
   background-size: cover;
   min-height: 600px;
 }
-/* line 281, sass/screen.sass */
+/* line 282, sass/screen.sass */
 .flexslider .slides .content-wrapper {
   color: white;
   position: absolute;
@@ -752,7 +753,7 @@ footer ul li:last-child {
   padding-top: 45px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-/* line 292, sass/screen.sass */
+/* line 293, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content {
   height: 100%;
   font-size: 16px;
@@ -760,7 +761,7 @@ footer ul li:last-child {
   text-shadow: 0px 2px 1px #3c3c3c;
   position: relative;
 }
-/* line 299, sass/screen.sass */
+/* line 300, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content h2 {
   width: 95%;
   float: left;
@@ -772,7 +773,7 @@ footer ul li:last-child {
   line-height: 48px;
   text-shadow: 0px 2px 1px #3c3c3c;
 }
-/* line 307, sass/screen.sass */
+/* line 308, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content p {
   width: 70%;
   float: left;
@@ -780,7 +781,7 @@ footer ul li:last-child {
   margin-right: 2.5%;
   margin-right: 27.5%;
 }
-/* line 311, sass/screen.sass */
+/* line 312, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content .btn-container {
   font-size: 16px;
   font-weight: 600;
@@ -791,20 +792,20 @@ footer ul li:last-child {
   bottom: 180px;
   left: 0;
 }
-/* line 320, sass/screen.sass */
+/* line 321, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content .btn-container .color-btn {
   margin-top: 10px;
 }
-/* line 323, sass/screen.sass */
+/* line 324, sass/screen.sass */
 .flexslider .slides .content-wrapper .slider-content .btn-container .color-btn.dark {
   background-color: #c1cbd8;
 }
-/* line 326, sass/screen.sass */
+/* line 327, sass/screen.sass */
 .flexslider .flex-control-nav {
   bottom: 17px;
   z-index: 10;
 }
-/* line 331, sass/screen.sass */
+/* line 332, sass/screen.sass */
 .flexslider .flex-control-nav li a {
   border: 1px solid white;
   background-color: transparent;
@@ -812,59 +813,59 @@ footer ul li:last-child {
   -webkit-box-shadow: #c3c5c8 0px 0px 0px;
   box-shadow: #c3c5c8 0px 0px 0px;
 }
-/* line 336, sass/screen.sass */
+/* line 337, sass/screen.sass */
 .flexslider .flex-control-nav li a.flex-active {
   background-color: #e28330;
   border: 1px solid #e28330;
 }
 
-/* line 341, sass/screen.sass */
+/* line 342, sass/screen.sass */
 .home .wrapper > section {
   padding: 60px 0;
 }
-/* line 343, sass/screen.sass */
+/* line 344, sass/screen.sass */
 .home .process, .home .selling-categories {
   padding: 60px 0;
 }
-/* line 346, sass/screen.sass */
+/* line 347, sass/screen.sass */
 .home .process .content h2, .home .selling-categories .content h2 {
   margin-top: 0;
 }
-/* line 348, sass/screen.sass */
+/* line 349, sass/screen.sass */
 .home .process ul, .home .selling-categories ul {
   padding-bottom: 0;
 }
-/* line 350, sass/screen.sass */
+/* line 351, sass/screen.sass */
 .home .flexslider {
   margin-bottom: 0;
 }
 
-/* line 353, sass/screen.sass */
+/* line 354, sass/screen.sass */
 .home .process {
   background-color: #313e48;
 }
-/* line 356, sass/screen.sass */
+/* line 357, sass/screen.sass */
 .home .middle-content h2 {
   margin-top: 0;
 }
-/* line 358, sass/screen.sass */
+/* line 359, sass/screen.sass */
 .home .middle-content p {
   margin-bottom: 0;
 }
-/* line 362, sass/screen.sass */
+/* line 363, sass/screen.sass */
 .home .top-content p:first-child {
   margin-top: 0;
 }
-/* line 364, sass/screen.sass */
+/* line 365, sass/screen.sass */
 .home .top-content p:last-child {
   margin-bottom: 0;
 }
-/* line 367, sass/screen.sass */
+/* line 368, sass/screen.sass */
 .home footer.container {
   margin-bottom: 40px;
 }
 
-/* line 370, sass/screen.sass */
+/* line 371, sass/screen.sass */
 .process {
   overflow: hidden;
   *zoom: 1;
@@ -872,15 +873,15 @@ footer ul li:last-child {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 376, sass/screen.sass */
+/* line 377, sass/screen.sass */
 .process.active {
   padding-bottom: 110px;
 }
-/* line 380, sass/screen.sass */
+/* line 381, sass/screen.sass */
 .process h2 {
   text-align: center;
 }
-/* line 383, sass/screen.sass */
+/* line 384, sass/screen.sass */
 .process ul {
   list-style-type: none;
   padding: 0;
@@ -888,7 +889,7 @@ footer ul li:last-child {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 389, sass/screen.sass */
+/* line 390, sass/screen.sass */
 .process ul li {
   width: 95%;
   float: left;
@@ -896,11 +897,11 @@ footer ul li:last-child {
   margin-right: 2.5%;
   margin-bottom: 20px;
 }
-/* line 393, sass/screen.sass */
+/* line 394, sass/screen.sass */
 .process ul li:first-child .count {
   margin-top: 30px;
 }
-/* line 395, sass/screen.sass */
+/* line 396, sass/screen.sass */
 .process ul li .step {
   width: 70%;
   float: left;
@@ -911,7 +912,7 @@ footer ul li:last-child {
   margin-top: 35px;
   display: block;
 }
-/* line 401, sass/screen.sass */
+/* line 402, sass/screen.sass */
 .process ul li .count {
   width: 20%;
   float: left;
@@ -919,15 +920,15 @@ footer ul li:last-child {
   margin-right: 2.5%;
   position: relative;
 }
-/* line 404, sass/screen.sass */
+/* line 405, sass/screen.sass */
 .process ul li .count img {
   width: 100%;
 }
-/* line 407, sass/screen.sass */
+/* line 408, sass/screen.sass */
 .process ul li .count img.active {
   display: none;
 }
-/* line 410, sass/screen.sass */
+/* line 411, sass/screen.sass */
 .process ul li .count .arrow {
   position: absolute;
   width: 15px;
@@ -936,7 +937,7 @@ footer ul li:last-child {
   left: -17%;
   display: none;
 }
-/* line 417, sass/screen.sass */
+/* line 418, sass/screen.sass */
 .process ul li .count .arrow-down {
   display: block;
   width: 20%;
@@ -944,69 +945,69 @@ footer ul li:last-child {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 423, sass/screen.sass */
+/* line 424, sass/screen.sass */
 .process ul li .process-title {
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 428, sass/screen.sass */
+/* line 429, sass/screen.sass */
 .process ul li .process-content {
   font-size: 14px;
 }
-/* line 434, sass/screen.sass */
+/* line 435, sass/screen.sass */
 .process ul li.active .count img.inactive {
   display: none;
 }
-/* line 436, sass/screen.sass */
+/* line 437, sass/screen.sass */
 .process ul li.active .count img.active {
   display: block;
 }
-/* line 439, sass/screen.sass */
+/* line 440, sass/screen.sass */
 .process ul li.active .step {
   display: block;
 }
 
-/* line 443, sass/screen.sass */
+/* line 444, sass/screen.sass */
 .owl-theme .owl-controls .owl-buttons div {
   opacity: 1;
 }
 
-/* line 445, sass/screen.sass */
+/* line 446, sass/screen.sass */
 .owl-theme .owl-controls {
   margin-top: 0;
 }
 
-/* line 448, sass/screen.sass */
+/* line 449, sass/screen.sass */
 .selling-categories {
   background-color: #f7f7f7;
 }
-/* line 451, sass/screen.sass */
+/* line 452, sass/screen.sass */
 .selling-categories ul {
   list-style-type: none;
   padding: 0 0 30px;
   text-align: center;
   margin: 0;
 }
-/* line 457, sass/screen.sass */
+/* line 458, sass/screen.sass */
 .selling-categories ul span {
   display: block;
   font-size: 16px;
 }
-/* line 461, sass/screen.sass */
+/* line 462, sass/screen.sass */
 .selling-categories ul a {
   font-size: 14px;
 }
-/* line 464, sass/screen.sass */
+/* line 465, sass/screen.sass */
 .selling-categories ul img {
   width: 150px;
 }
-/* line 467, sass/screen.sass */
+/* line 468, sass/screen.sass */
 .selling-categories ul .owl-buttons {
   position: relative;
   top: -150px;
 }
-/* line 470, sass/screen.sass */
+/* line 471, sass/screen.sass */
 .selling-categories ul .owl-buttons div.owl-prev, .selling-categories ul .owl-buttons div.owl-next {
   position: absolute;
   text-indent: -9999px;
@@ -1015,14 +1016,14 @@ footer ul li:last-child {
   height: 38px;
   width: 13px;
 }
-/* line 478, sass/screen.sass */
+/* line 479, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-prev {
   left: 0;
   background-image: url(../img/ui/prev.png);
   background-position: left center;
   background-size: 13px 35px;
 }
-/* line 484, sass/screen.sass */
+/* line 485, sass/screen.sass */
 .selling-categories ul .owl-buttons .owl-next {
   right: 0;
   background-image: url(../img/ui/next.png);
@@ -1032,45 +1033,45 @@ footer ul li:last-child {
 
 /*---------------- Home Page End --------------- */
 /*---------------- Page/Post Start --------------- */
-/* line 494, sass/screen.sass */
+/* line 495, sass/screen.sass */
 .header-image {
   max-height: 600px;
   overflow: hidden;
   position: relative;
 }
-/* line 498, sass/screen.sass */
+/* line 499, sass/screen.sass */
 .header-image img {
   width: 100%;
 }
 
 /* Videos */
-/* line 502, sass/screen.sass */
+/* line 503, sass/screen.sass */
 .video-wrapper {
   cursor: pointer;
 }
 
-/* line 505, sass/screen.sass */
+/* line 506, sass/screen.sass */
 .ui-dialog {
   width: 81.66667% !important;
   background-color: transparent !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
-/* line 510, sass/screen.sass */
+/* line 511, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar {
   background: transparent;
   border: none;
 }
-/* line 513, sass/screen.sass */
+/* line 514, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button {
   right: -30px;
   top: 2px;
 }
-/* line 516, sass/screen.sass */
+/* line 517, sass/screen.sass */
 .ui-dialog .ui-dialog-titlebar .ui-button:focus {
   outline: none;
 }
-/* line 518, sass/screen.sass */
+/* line 519, sass/screen.sass */
 .ui-dialog .ui-dialog-content {
   position: relative;
   padding-bottom: 56.25%;
@@ -1078,7 +1079,7 @@ footer ul li:last-child {
   height: 0;
   overflow: hidden;
 }
-/* line 525, sass/screen.sass */
+/* line 526, sass/screen.sass */
 .ui-dialog .ui-dialog-content iframe {
   position: absolute;
   top: 0;
@@ -1087,7 +1088,7 @@ footer ul li:last-child {
   height: 100%;
 }
 
-/* line 532, sass/screen.sass */
+/* line 533, sass/screen.sass */
 .play-button {
   pointer-events: none;
   position: absolute;
@@ -1103,22 +1104,22 @@ footer ul li:last-child {
 
 /*---------------- Page/Post End --------------- */
 /*---------------- Contact Page Start --------------- */
-/* line 550, sass/screen.sass */
+/* line 551, sass/screen.sass */
 #gform_confirmation_message_1 {
   text-align: left;
 }
 
-/* line 552, sass/screen.sass */
+/* line 553, sass/screen.sass */
 .gform_wrapper {
   width: 100%;
   margin: 30px 0;
   max-width: 100%;
 }
-/* line 557, sass/screen.sass */
+/* line 558, sass/screen.sass */
 .gform_wrapper .gfield_label {
   display: none !important;
 }
-/* line 560, sass/screen.sass */
+/* line 561, sass/screen.sass */
 .gform_wrapper input, .gform_wrapper select, .gform_wrapper option, .gform_wrapper input.medium, .gform_wrapper textarea {
   width: 100% !important;
   padding: 13px;
@@ -1129,7 +1130,7 @@ footer ul li:last-child {
   -webkit-border-radius: 4px 4px;
   border-radius: 4px / 4px;
 }
-/* line 568, sass/screen.sass */
+/* line 569, sass/screen.sass */
 .gform_wrapper select {
   margin: 10px 0px 20px;
   color: #e28330;
@@ -1141,16 +1142,16 @@ footer ul li:last-child {
   background-position: right 13px center;
   background-size: 22px 13px;
 }
-/* line 579, sass/screen.sass */
+/* line 580, sass/screen.sass */
 .gform_wrapper input {
   margin: 10px 0px;
 }
-/* line 582, sass/screen.sass */
+/* line 583, sass/screen.sass */
 .gform_wrapper .gform_footer {
   margin: 0px;
   padding-top: 10px;
 }
-/* line 586, sass/screen.sass */
+/* line 587, sass/screen.sass */
 .gform_wrapper .gform_footer .gform_button {
   text-transform: uppercase;
   -moz-border-radius: 4px / 4px;
@@ -1163,53 +1164,53 @@ footer ul li:last-child {
 }
 
 @-moz-document url-prefix() {
-  /* line 595, sass/screen.sass */
+  /* line 596, sass/screen.sass */
   .gform_wrapper select {
     background-image: none;
   }
 }
-/* line 597, sass/screen.sass */
+/* line 598, sass/screen.sass */
 .validation_error {
   color: #c89797 !important;
 }
 
 /*---------------- Contact Page End --------------- */
 /*---------------- Tips Page Start --------------- */
-/* line 604, sass/screen.sass */
+/* line 605, sass/screen.sass */
 .item img {
   width: 50%;
   margin: 15px 0;
 }
-/* line 608, sass/screen.sass */
+/* line 609, sass/screen.sass */
 .item .item-content {
   margin: 15px 2.5% 30px;
 }
-/* line 610, sass/screen.sass */
+/* line 611, sass/screen.sass */
 .item .item-content ul {
   font-size: 14px;
 }
 
 /*---------------- Tips Page End --------------- */
 /*---------------- How To B2Buy Page Start --------------- */
-/* line 620, sass/screen.sass */
+/* line 621, sass/screen.sass */
 .how-to {
   background-color: #313e48;
   color: white;
   margin-top: -30px;
 }
-/* line 624, sass/screen.sass */
+/* line 625, sass/screen.sass */
 .how-to .content {
   color: white;
 }
-/* line 626, sass/screen.sass */
+/* line 627, sass/screen.sass */
 .how-to .wrapper {
   padding: 50px 0;
 }
-/* line 628, sass/screen.sass */
+/* line 629, sass/screen.sass */
 .how-to .dark {
   background-color: #29343d;
 }
-/* line 631, sass/screen.sass */
+/* line 632, sass/screen.sass */
 .how-to .icon {
   width: 45%;
   float: left;
@@ -1219,12 +1220,12 @@ footer ul li:last-child {
   margin-right: 27.5%;
   text-align: center;
 }
-/* line 637, sass/screen.sass */
+/* line 638, sass/screen.sass */
 .how-to .icon img {
   width: 100%;
   margin: 15px 0;
 }
-/* line 641, sass/screen.sass */
+/* line 642, sass/screen.sass */
 .how-to .hcontent {
   width: 95%;
   float: left;
@@ -1232,7 +1233,7 @@ footer ul li:last-child {
   margin-right: 2.5%;
   text-align: center;
 }
-/* line 645, sass/screen.sass */
+/* line 646, sass/screen.sass */
 .how-to .hcontent ul {
   font-size: 14px;
   font-weight: 500;
@@ -1240,22 +1241,22 @@ footer ul li:last-child {
   padding-bottom: 10px;
   padding-left: 20px;
 }
-/* line 652, sass/screen.sass */
+/* line 653, sass/screen.sass */
 .how-to .hcontent ul li {
   padding: 5px 0;
 }
-/* line 655, sass/screen.sass */
+/* line 656, sass/screen.sass */
 .how-to .screenshot {
   width: 95%;
   float: left;
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
-/* line 658, sass/screen.sass */
+/* line 659, sass/screen.sass */
 .how-to .screenshot img {
   width: 100%;
 }
-/* line 661, sass/screen.sass */
+/* line 662, sass/screen.sass */
 .how-to .bottom {
   padding-top: 30px;
   text-align: center;
