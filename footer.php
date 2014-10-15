@@ -59,5 +59,23 @@
 	/* custom configuration goes here (www.olark.com/documentation) */
 	olark.identify('2771-602-10-6072');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2771-602-10-6072/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 <!-- end olark code -->
+	<script type=text/javascript>
+	   var hostProtocol = (("https:" == document.location.protocol) ? "https" : "http");
+	   document.write('<scr'+'ipt src="', hostProtocol+
+	   '://101.xg4ken.com/media/getpx.php?cid=c90e56e5-0462-4df9-828c-05763055e0ff','" type="text/JavaScript"><\/scr'+'ipt>');
+	</script>
+	<script type=text/javascript>
+	   var params = new Array();
+	   params[0]='id=c90e56e5-0462-4df9-828c-05763055e0ff';
+	   params[1]='type=conv';
+	   params[2]='val=0.0';
+	   params[3]='orderId=';
+	   params[4]='promoCode=';
+	   params[5]='valueCurrency=USD';
+	   params[6]='GCID='; //For Live Tracking only
+	   params[7]='kw='; //For Live Tracking only
+	   params[8]='product='; //For Live Tracking only
+	   //k_trackevent(params,'101'); this function needs to be bind to onClick event of every single button that needs to be tracked.
+	</script>
 </body>
 </html>

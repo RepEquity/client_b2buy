@@ -51,6 +51,19 @@
     </head>
     
 	<body <?php body_class(); ?>>
+		<?php if(is_home()): ?>
+			<div style="display: none;">
+			<!-- SmartAdserver Tracking Begin -->
+			<!-- B2Buy -->
+			<!-- Tracking with script -->
+			<SCRIPT type="text/javascript">
+			sas_tmstp=Math.round(Math.random()*10000000000);
+			document.write('<iframe src="http://www5.smartadserver.com/track/ift2.asp?228934;18863;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 iframeborder=0></iframe>');
+			</SCRIPT>
+			<NOSCRIPT><iframe src="http://www5.smartadserver.com/track/ift2.asp?228934;18863;123456;0;[transactionid];[reference]" width=1 height=1 iframeborder=0> </iframe></NOSCRIPT>
+			<!-- SmartAdserver Tracking End -->
+			</div>
+			<?php endif; ?>
 		<div class="wrapper">
 			
 			<header id="main-header" class="container">

@@ -6,12 +6,10 @@ $middle_content = get_field('home_middle_content', 'options');
 $process_steps = get_field('process_steps', 'options');
 $tsc = get_field('top_selling_categories', 'options');
 ?>
-
 	<?php if( $slider ) : ?>
 		<div class="flexslider">
 			<ul class="slides">
-				<?php foreach( $slider as $slide ) : ?>
-					
+				<?php foreach( $slider as $slide ) : ?>				
 					<li class="slide" style="background-image: url('<?php echo $slide['slider_image']['url']; ?>')">
 						<div class="content-wrapper ">
 							<div class="slider-content container">
@@ -20,7 +18,7 @@ $tsc = get_field('top_selling_categories', 'options');
 								<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
 									<div class="btn-container clearfix">
 										<?php if( $slide['slider_link'] ) : ?>
-										    <a class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
+										    <a onclick="k_trackevent(params,'101')" class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
 										    </a>
 										<?php endif; ?>
 										<?php if( $slide['slider_link_two'] ) : ?> 
