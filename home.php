@@ -22,7 +22,7 @@ $tsc = get_field('top_selling_categories', 'options');
 										    </a>
 										<?php endif; ?>
 										<?php if( $slide['slider_link_two'] ) : ?> 
-										    <a class="color-btn dark" href="<?php echo $slide['slider_link_two']; ?>" ><?php echo $slide['slider_link_text_two']; ?>
+										    <a onClick="tracking_code('learn_more')" class="color-btn dark" href="<?php echo $slide['slider_link_two']; ?>" ><?php echo $slide['slider_link_text_two']; ?>
 										    </a>
 										<?php endif; ?>
 									</div>
@@ -122,7 +122,7 @@ $tsc = get_field('top_selling_categories', 'options');
 				<ul id="tsc">
 					<?php foreach( $tsc as $cat ) : ?>
 						<?php if($cat['tsc_published']) : ?>
-							<li><img src="<?php echo $cat['tsc_image']['url']; ?>" alt="<?php echo $cat['tsc_image']['alt']; ?>" /><span class="tsc-item-title"><?php echo $cat['tsc_title']; ?></span><a href="<?php echo $cat['tsc_link']; ?>"><?php echo $cat['tsc_link_text']; ?></a></li>
+							<li><img src="<?php echo $cat['tsc_image']['url']; ?>" alt="<?php echo $cat['tsc_image']['alt']; ?>" /><span class="tsc-item-title"><?php echo $cat['tsc_title']; ?></span><a onClick="tracking_code('<?php echo $cat['tsc_tracking_name']; ?>')" href="<?php echo $cat['tsc_link']; ?>"><?php echo $cat['tsc_link_text']; ?></a></li>
 						<?php endif; ?>
 					<?php endforeach; ?>
 				</ul>
