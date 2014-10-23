@@ -18,7 +18,7 @@ $tsc = get_field('top_selling_categories', 'options');
 								<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
 									<div class="btn-container clearfix">
 										<?php if( $slide['slider_link'] ) : ?>
-										    <a onclick="k_trackevent(params,'101')" class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
+										    <a onclick="k_trackevent(params,'101');tracking_code('start_b2buy');" class="color-btn" href="<?php echo $slide['slider_link']; ?>" ><?php echo $slide['slider_link_text']; ?>
 										    </a>
 										<?php endif; ?>
 										<?php if( $slide['slider_link_two'] ) : ?> 

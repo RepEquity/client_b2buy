@@ -56,7 +56,7 @@
 					</div>
 					<?php if( $buttons ) : ?>
 						<?php foreach( $buttons as $button ) : ?>
-						<a class="color-btn" onclick="k_trackevent(params,'101')" href="<?php echo $button['button_link']; ?>"><?php echo $button['button_text']; ?></a>
+						<a class="color-btn" onclick="k_trackevent(params,'101');tracking_code('start_b2buy');" href="<?php echo $button['button_link']; ?>"><?php echo $button['button_text']; ?></a>
 						<?php endforeach; ?>
 					<?php endif; ?>
 				</div>
