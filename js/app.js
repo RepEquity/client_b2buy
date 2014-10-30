@@ -1655,79 +1655,131 @@ function checkMobile() {
 }
 
 function tracking_code($name){
-	switch($name) {
-	    
-	    case 'cameras':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18965;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	        
-	        break;
-	    
-	    case 'gps':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18966;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	        
-	        break;
-	    
-	    case 'learn_more':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18964;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;    
-	    
-	    case 'medical_tools':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18967;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'office_chairs':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18968;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'office_printers':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18969;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'phones':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18970;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'projectors':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18971;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'routers':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18972;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'start_b2buy':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18963;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	
-	    case 'storage':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18973;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    
-	    case 'television':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18974;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    
-	    case 'toner':
-	    	sas_tmstp=Math.round(Math.random()*10000000000);
-			document.write('<img src="http://www5.smartadserver.com/track/pix2.asp?228934;18975;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 border=0></img>');
-	    	break;
-	    	   
-	    default:
-	    	break;
-	}
-	
-	
+    switch($name) {
+        
+        case 'cameras':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18965;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+        
+        case 'gps':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18966;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            
+            break;
+        
+        case 'learn_more':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18964;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;    
+        
+        case 'medical_tools':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18967;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'office_chairs':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18968;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'office_printers':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18969;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'phones':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18970;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'projectors':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18971;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'routers':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18972;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'start_b2buy':
+            sas_tmstp=Math.round(Math.random()*10000000000);
+            var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18963;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+            
+        case 'storage':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18973;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+        
+        case 'television':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18974;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+        
+        case 'toner':
+            sas_tmstp=Math.round(Math.random()*10000000000);var image = document.createElement("img");
+            var imageParent = document.getElementById("body");
+            image.src= "http://www5.smartadserver.com/track/pix2.asp?228934;18975;"+sas_tmstp+";0;[transactionid];[reference]";
+            image.width = 1;
+            image.height = 1;
+            document.getElementsByTagName('body')[0].appendChild(image);
+            break;
+               
+        default:
+            break;
+    }
+    
+    
 }
 

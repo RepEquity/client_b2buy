@@ -44,7 +44,8 @@
 			var ua = window.navigator.userAgent;
 	        var msie = ua.indexOf("MSIE ");
 			if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
-			 $("html").addClass("ie");
+				var root = document.documentElement;
+				root.className += " ie";
 			}
 		</script>
 
@@ -57,7 +58,7 @@
 			<!-- B2Buy -->
 			<!-- Tracking with script -->
 			<SCRIPT type="text/javascript">
-			sas_tmstp=Math.round(Math.random()*10000000000);
+			var sas_tmstp = Math.round(Math.random()*10000000000);
 			document.write('<iframe src="http://www5.smartadserver.com/track/ift2.asp?228934;18863;'+sas_tmstp+';0;[transactionid];[reference]" width=1 height=1 iframeborder=0></iframe>');
 			</SCRIPT>
 			<NOSCRIPT><iframe src="http://www5.smartadserver.com/track/ift2.asp?228934;18863;123456;0;[transactionid];[reference]" width=1 height=1 iframeborder=0> </iframe></NOSCRIPT>
