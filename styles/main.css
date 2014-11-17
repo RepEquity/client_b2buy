@@ -542,7 +542,7 @@ p.featured {
 #main-menu {
   display: none;
   position: absolute;
-  z-index: 100;
+  z-index: 999999999;
   background-color: white;
   top: 50px;
   left: 0px;
