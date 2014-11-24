@@ -51,16 +51,13 @@ p
 #main-header
 	+clearfix
 	height: 85px
+	overflow: visible
+	
+	.social-media
+		display: none
 	
 #mobile-menu-icon
 	display: none
-
-.social-media
-	text-align: right
-	img
-		width: 26px
-		height: 26px
-		margin: 5px
 	
 	
 #branding
@@ -74,7 +71,7 @@ p
 			height: auto
 
 #main-menu
-	@include span(10 of 12)
+	@include span(6.9 of 12)
 	display: block
 	position: relative
 	z-index: 100
@@ -88,7 +85,7 @@ p
 	
 	.menu-container
 		position: relative
-		@include span(7.7 of 10)
+		@include span(10 of 10)
 		top: initial
 		bottom: initial
 		overflow: auto
@@ -114,8 +111,9 @@ p
 				color: $dark_gray
 				text-decoration: none
 				font-family: "Open Sans Condensed", sans-serif
-				font-size: 16px
+				font-size: 14px
 				font-weight: 600
+				
 	footer
 		@include span(2 of 10 last)
 		min-width: 122px
@@ -126,6 +124,76 @@ p
 			display: none
 		.menu-footer-menu-container
 			display: none
+			
+.account
+	@include span(3.1 of 12)
+	font-family: "Open Sans Condensed", sans-serif
+	font-size: 16px
+	font-weight: 600
+	padding: 21px 0 22px
+	height: 23px
+	position: relative
+	img
+		color: red
+		float: right
+		cursor: pointer	
+		&.gray
+			display: block
+		&.white
+			display: none
+
+	.my_account
+		float: right
+		display: inline	
+		cursor: pointer	
+		padding: 5px
+		font-size: 14px
+		
+		&:after 
+			display: inline
+			font-family: 'FontAwesome'
+			font-size: 14px
+			line-height: 18px
+			color: #323e48
+			content: "\f107"
+			padding-left: 5px
+	
+		
+	.account_menu
+		top: 32px
+		position: relative
+		
+		&.sign-in
+			display: block
+			position: relative
+			float: right
+			top: 3px
+			background: transparent
+			li
+				display: inline
+				padding: 5px
+				position: relative
+				a
+					font-size: 11px
+					
+				&:first-child
+					&:after
+						content: '|'
+						position: absolute
+						right: -6px
+						top: 9px
+						font-size: 12px
+	
+	.account-containter
+		+clearfix
+		float: right
+		overflow: visible
+		background-color: $light_gray
+		@include border-radius(4px, 4px)
+		padding: 5px
+		
+		&.white
+			background-color: #fff
 
 .header-image
 	.content-wrapper 
@@ -163,6 +231,14 @@ footer
 		padding: 0px 6px
 	.menu-footer-menu-container
 		float: left
+		
+	.social-media
+		display: block
+		text-align: center
+		img
+			width: 26px
+			height: 26px
+			margin: 5px
 
 
 /*---------------- Footer Styles End ---------------*/
@@ -305,8 +381,6 @@ footer
 /*---------------- Contact Page End ---------------*/
 
 /*---------------- How To B2Buy Page Start ---------------*/
-
-.page-template-how-to-b2buy-php
 
 
 .how-to

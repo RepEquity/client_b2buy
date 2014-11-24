@@ -3,6 +3,7 @@
 <footer class="container">
 	<div class="inner">
 		<div class="footer-left">
+			<?php get_template_part('parts/social-media'); ?>
 			<?php get_template_part('parts/footer-nav'); ?>
 		</div>
 		<div class="footer-right">

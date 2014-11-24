@@ -52,7 +52,7 @@
     </head>
     
 	<body <?php body_class(); ?>>
-		<?php if(is_home()): ?>
+			<?php if(is_home()): ?>
 			<div style="display: none;">
 			<!-- SmartAdserver Tracking Begin -->
 			<!-- B2Buy -->
@@ -80,14 +80,37 @@
 							<?php wp_nav_menu( array( 'theme_location' => 'header-menu') ); ?>
 						</div>
 					</div>
-
-					<footer>
+										<footer>
 						<div class="header-bottom">
 							<?php get_template_part('parts/social-media'); ?>
 							<?php get_template_part('parts/footer-nav'); ?>
 						</div>
 					</footer>
 				</nav>
+			<div class="account">
+						
+				<?php if (get_login_status()) : ?>
+					<div class="account-containter white">
+					 <div class="my_account">MY ACCOUNT</div>
+					 <img src="<?php echo get_template_directory_uri(); ?>/img/profile-icon.png" alt="profile-icon" width="32" height="32" class="account-menu-icon">
+					 <ul class="account_menu">
+					 	<li><a href="https://marketplace.b2buy.com/b2buyweb/dashboard.do">Dashboard</a></li>
+					 	<li><a href="https://marketplace.b2buy.com/b2buyweb/buyhistory.do">History</a></li>
+					 	<li><a href="https://marketplace.b2buy.com/b2buyweb/viewProfile.do">Profile</a></li>
+					 	<li><a href="https://marketplace.b2buy.com/b2buyweb/logOut.do">Sign Out</a></li>
+					 </ul>
+					</div>
+				<?php else: ?>
+					<div class="account-containter">
+						<ul class="sign-in account_menu">
+							<li><a href="https://marketplace.b2buy.com/b2buyweb/loginRequest.do?param=false">Sign In</a></li>
+							<li><a href="https://marketplace.b2buy.com/b2buyweb/loginRequest.do?param=true">Create Account</a></li>
+						</ul>
+						<a href="https://marketplace.b2buy.com/b2buyweb/loginRequest.do?param=false"><img src="<?php echo get_template_directory_uri(); ?>/img/profile-icon-gray.png" alt="profile-icon" width="32" height="32" class="gray"></a>
+						<img src="<?php echo get_template_directory_uri(); ?>/img/profile-icon.png" alt="profile-icon" width="32" height="32" class="white account-menu-icon">
+							<?php endif; ?>
+					</div>
+			</div>
 
 			
 			</header>

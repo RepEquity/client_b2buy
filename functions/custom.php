@@ -3,8 +3,8 @@
 	// Changing excerpt more
 
 	function new_excerpt_more($more) {
-	global $post;
-	return '… <a href="'. get_permalink($post->ID) . '">' . '[Read More]' . '</a>';
+		global $post;
+		return '… <a href="'. get_permalink($post->ID) . '">' . '[Read More]' . '</a>';
 	}
 	
 	add_filter('excerpt_more', 'new_excerpt_more');
@@ -14,6 +14,12 @@
 		return $alt;
 	}
 	
-	
-
+	function get_login_status(){
+		if(isset($_COOKIE['b2buyst'])) {
+			return true;
+		}else{
+			return false;
+		}
+	}
+		  
 ?>

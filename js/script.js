@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
 		$('body').toggleClass('open');
 		$('#main-menu').slideToggle(500);
 		$('.current-menu-parent').addClass('open');
+		$('.account .account_menu').removeClass('open');
 		
 		return false;
 	});
@@ -30,6 +31,18 @@ jQuery(document).ready(function($) {
 		$('#searchform').toggle( "slide" );
 		return false;
 	});
+	
+	$('.account img.account-menu-icon, .account .my_account').on('click', function(){
+		$('.account .account_menu').toggleClass('open');
+		if($(this).css('color') == 'rgb(0, 128, 0)') {
+			$('#main-header, #main-menu').removeClass('open');
+			$('#mobile-menu-icon').removeClass('open');
+			$('#main-menu').hide();
+		}
+		
+		return false;
+	});
+
 	
 	$('#menu-news-filter li.current-menu-item').on('click', function(event){
 	  	$('#menu-news-filter li').toggleClass('open');

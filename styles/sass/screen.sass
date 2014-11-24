@@ -151,10 +151,53 @@ p
 				text-decoration: none
 				font-size: 18px
 				font-weight: 600
+	
 	footer
 		position: absolute
 		bottom: 30px
 		width: 100%
+		
+.account
+	@include span(1 of 4 )
+	padding: 9px 0
+	
+	img
+		float: right
+		color: green
+		&.gray
+			display: none
+		
+	.my_account
+		display: none
+	.account_menu
+		display: none
+	.account_menu
+		display: none
+		list-style-type: none
+		padding: 0 0 10px 0
+		text-align: center
+		margin: 0
+		position: absolute
+		z-index: 99999999
+		background-color: white
+		top: 50px
+		left: 0px
+		right: 0px
+		
+		li
+			padding: 10px
+		
+		a
+			text-transform: uppercase
+			color: $dark_gray
+			text-decoration: none
+			font-size: 18px
+			font-weight: 600
+		
+		&.open
+			display: block
+	
+
 		
 .header-image
 	background-color: #000000
@@ -202,6 +245,8 @@ footer
 
 .footer-left
 	text-align: center
+	.social-media
+		display: none
 
 .ticker
 	height: 40px

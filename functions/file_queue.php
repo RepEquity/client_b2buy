@@ -17,9 +17,11 @@ function engueue_b2buy_styles() {
 	wp_register_style( 'owl_css', get_template_directory_uri().'/js/vendor/owl.carousel/owl-carousel/owl.carousel.css' );
 	wp_register_style( 'owl_theme', get_template_directory_uri().'/js/vendor/owl.carousel/owl-carousel/owl.theme.css' );
 	wp_register_style( 'icomoon', get_template_directory_uri().'/styles/icomoon.css' );
+	wp_register_style( 'awesome', get_template_directory_uri().'/styles/fonts/font-awesome-4.2.0/css/font-awesome.min.css' );
 	wp_register_style('flexslider', get_stylesheet_directory_uri().'/styles/flexslider.css');
 
 	wp_enqueue_style( 'icomoon' );
+	wp_enqueue_style( 'awesome' );
 	wp_enqueue_style( 'owl_css' );
 	wp_enqueue_style( 'owl_theme' );
 	wp_enqueue_style( 'main' );
