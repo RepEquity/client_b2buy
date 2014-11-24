@@ -1790,24 +1790,25 @@ footer ul li:last-child {
   .footer-left {
     overflow: hidden;
     *zoom: 1;
+    overflow: visible;
     width: 100%;
   }
-  /* line 228, sass/views/_768.sass */
+  /* line 229, sass/views/_768.sass */
   .footer-left .copyright {
     float: left;
     border-right: 1px solid #313e48;
     padding: 0px 6px;
   }
-  /* line 232, sass/views/_768.sass */
+  /* line 233, sass/views/_768.sass */
   .footer-left .menu-footer-menu-container {
     float: left;
   }
-  /* line 235, sass/views/_768.sass */
+  /* line 236, sass/views/_768.sass */
   .footer-left .social-media {
     display: block;
     text-align: center;
   }
-  /* line 238, sass/views/_768.sass */
+  /* line 239, sass/views/_768.sass */
   .footer-left .social-media img {
     width: 26px;
     height: 26px;
@@ -1817,11 +1818,11 @@ footer ul li:last-child {
   /*---------------- Footer Styles End --------------- */
   /*---------------- Home Page Start --------------- */
   /* Slider */
-  /* line 252, sass/views/_768.sass */
+  /* line 253, sass/views/_768.sass */
   .flexslider .slides .content-wrapper {
     padding-top: 95px;
   }
-  /* line 257, sass/views/_768.sass */
+  /* line 258, sass/views/_768.sass */
   .flexslider .slides .content-wrapper .slider-content h2 {
     width: 81.66667%;
     float: left;
@@ -1830,7 +1831,7 @@ footer ul li:last-child {
     font-size: 48px;
     line-height: 62px;
   }
-  /* line 261, sass/views/_768.sass */
+  /* line 262, sass/views/_768.sass */
   .flexslider .slides .content-wrapper .slider-content p {
     clear: left;
     width: 40%;
@@ -1839,13 +1840,13 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     font-size: 18px;
   }
-  /* line 266, sass/views/_768.sass */
+  /* line 267, sass/views/_768.sass */
   .flexslider .slides .content-wrapper .slider-content .btn-container {
     position: relative;
     float: left;
     bottom: 0;
   }
-  /* line 270, sass/views/_768.sass */
+  /* line 271, sass/views/_768.sass */
   .flexslider .slides .content-wrapper .slider-content .btn-container .color-btn {
     width: auto;
     font-size: 18px;
@@ -1855,7 +1856,7 @@ footer ul li:last-child {
     margin-left: 0.83333%;
   }
 
-  /* line 278, sass/views/_768.sass */
+  /* line 279, sass/views/_768.sass */
   .process {
     overflow: hidden;
     *zoom: 1;
@@ -1863,21 +1864,21 @@ footer ul li:last-child {
     padding-top: 10px;
     padding-bottom: 30px;
   }
-  /* line 284, sass/views/_768.sass */
+  /* line 285, sass/views/_768.sass */
   .process.active {
     padding-bottom: 30px;
   }
-  /* line 288, sass/views/_768.sass */
+  /* line 289, sass/views/_768.sass */
   .process h2 {
     text-align: center;
   }
-  /* line 291, sass/views/_768.sass */
+  /* line 292, sass/views/_768.sass */
   .process ul {
     list-style-type: none;
     padding: 0;
     position: relative;
   }
-  /* line 296, sass/views/_768.sass */
+  /* line 297, sass/views/_768.sass */
   .process ul li {
     width: 23.33333%;
     float: left;
@@ -1885,45 +1886,45 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     margin-bottom: 0;
   }
-  /* line 300, sass/views/_768.sass */
+  /* line 301, sass/views/_768.sass */
   .process ul li:first-child .count {
     margin-top: 0;
   }
-  /* line 302, sass/views/_768.sass */
+  /* line 303, sass/views/_768.sass */
   .process ul li .step {
     position: relative;
     width: 100%;
     float: none;
     text-align: center;
   }
-  /* line 307, sass/views/_768.sass */
+  /* line 308, sass/views/_768.sass */
   .process ul li .count {
     width: 100%;
     float: none;
   }
-  /* line 310, sass/views/_768.sass */
+  /* line 311, sass/views/_768.sass */
   .process ul li .count img {
     width: 60%;
     margin: 0 auto;
   }
-  /* line 314, sass/views/_768.sass */
+  /* line 315, sass/views/_768.sass */
   .process ul li .count img.inactive {
     display: block;
   }
-  /* line 317, sass/views/_768.sass */
+  /* line 318, sass/views/_768.sass */
   .process ul li .count .arrow {
     top: 40%;
     left: -15px;
     display: block;
   }
-  /* line 321, sass/views/_768.sass */
+  /* line 322, sass/views/_768.sass */
   .process ul li .count .arrow-down {
     display: none;
   }
 
   /*---------------- Home Page End --------------- */
   /*---------------- Tips Page Start --------------- */
-  /* line 327, sass/views/_768.sass */
+  /* line 328, sass/views/_768.sass */
   .item {
     width: 31.66667%;
     float: left;
@@ -1946,14 +1947,14 @@ footer ul li:last-child {
     margin-right: -100%;
     clear: none;
   }
-  /* line 330, sass/views/_768.sass */
+  /* line 331, sass/views/_768.sass */
   .item.single img {
     width: 130px;
   }
 
   /*---------------- Tips Page End --------------- */
   /*---------------- Contact Page Start --------------- */
-  /* line 335, sass/views/_768.sass */
+  /* line 336, sass/views/_768.sass */
   .contact-info {
     width: 23.33333%;
     float: left;
@@ -1962,7 +1963,7 @@ footer ul li:last-child {
     margin-top: 20px;
   }
 
-  /* line 339, sass/views/_768.sass */
+  /* line 340, sass/views/_768.sass */
   .gform_wrapper {
     width: 73.33333%;
     float: left;
@@ -1971,7 +1972,7 @@ footer ul li:last-child {
     margin-top: 10px;
     position: relative;
   }
-  /* line 345, sass/views/_768.sass */
+  /* line 346, sass/views/_768.sass */
   .gform_wrapper .gform_button {
     position: relative;
     margin-right: 1.11111%;
@@ -1980,7 +1981,7 @@ footer ul li:last-child {
     padding-right: 40px;
     float: right;
   }
-  /* line 353, sass/views/_768.sass */
+  /* line 354, sass/views/_768.sass */
   .gform_wrapper .left_half {
     width: 31.11111%;
     float: left;
@@ -1989,7 +1990,7 @@ footer ul li:last-child {
     float: left;
     clear: left !important;
   }
-  /* line 358, sass/views/_768.sass */
+  /* line 359, sass/views/_768.sass */
   .gform_wrapper .right_half {
     width: 64.44444%;
     float: left;
@@ -2000,36 +2001,36 @@ footer ul li:last-child {
     position: relative;
     top: -130px;
   }
-  /* line 365, sass/views/_768.sass */
+  /* line 366, sass/views/_768.sass */
   .gform_wrapper .right_half textarea {
     height: 300px;
     margin-bottom: -130px;
   }
-  /* line 370, sass/views/_768.sass */
+  /* line 371, sass/views/_768.sass */
   .gform_wrapper .right_half.gfield_error textarea {
     margin-bottom: 0px;
   }
-  /* line 372, sass/views/_768.sass */
+  /* line 373, sass/views/_768.sass */
   .gform_wrapper li.gfield_error ~ li {
     top: 0;
   }
-  /* line 375, sass/views/_768.sass */
+  /* line 376, sass/views/_768.sass */
   .gform_wrapper li.gfield_error ~ li textarea {
     margin-bottom: 0px;
   }
 
   /*---------------- Contact Page End --------------- */
   /*---------------- How To B2Buy Page Start --------------- */
-  /* line 386, sass/views/_768.sass */
+  /* line 387, sass/views/_768.sass */
   .how-to {
     background-color: #313e48;
     color: white;
   }
-  /* line 390, sass/views/_768.sass */
+  /* line 391, sass/views/_768.sass */
   .how-to .dark {
     background-color: #29343d;
   }
-  /* line 393, sass/views/_768.sass */
+  /* line 394, sass/views/_768.sass */
   .how-to .icon {
     width: 15%;
     float: left;
@@ -2037,12 +2038,12 @@ footer ul li:last-child {
     margin-right: 0.83333%;
     text-align: center;
   }
-  /* line 397, sass/views/_768.sass */
+  /* line 398, sass/views/_768.sass */
   .how-to .icon img {
     width: 100%;
     margin: 15px 0;
   }
-  /* line 401, sass/views/_768.sass */
+  /* line 402, sass/views/_768.sass */
   .how-to .hcontent {
     width: 40%;
     float: left;
@@ -2051,29 +2052,29 @@ footer ul li:last-child {
     margin-right: 9.16667%;
     text-align: left;
   }
-  /* line 406, sass/views/_768.sass */
+  /* line 407, sass/views/_768.sass */
   .how-to .hcontent ul {
     font-size: 14px;
     font-weight: 500;
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  /* line 412, sass/views/_768.sass */
+  /* line 413, sass/views/_768.sass */
   .how-to .hcontent ul li {
     padding: 5px 0;
   }
-  /* line 415, sass/views/_768.sass */
+  /* line 416, sass/views/_768.sass */
   .how-to .screenshot {
     width: 31.66667%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
   }
-  /* line 418, sass/views/_768.sass */
+  /* line 419, sass/views/_768.sass */
   .how-to .screenshot img {
     width: 100%;
   }
-  /* line 421, sass/views/_768.sass */
+  /* line 422, sass/views/_768.sass */
   .how-to .bottom {
     padding-top: 30px;
   }
