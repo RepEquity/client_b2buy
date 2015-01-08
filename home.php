@@ -13,7 +13,9 @@ $tsc = get_field('top_selling_categories', 'options');
 					<li class="slide" style="background-image: url('<?php echo $slide['slider_image']['url']; ?>')">
 						<div class="content-wrapper ">
 							<div class="slider-content container">
+							<?php if ($slide['slider_title']) : ?>
 								<h2><?php echo $slide['slider_title']; ?></h2>
+							<?php endif; ?>
 								<?php echo $slide['slider_content']; ?>
 								<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
 									<div class="btn-container clearfix">
