@@ -14,7 +14,7 @@ $tsc = get_field('top_selling_categories', 'options');
 						<div class="content-wrapper ">
 							<div class="slider-content container">
 								<h2><?php echo $slide['slider_title']; ?></h2>
-								<p><?php echo $slide['slider_content']; ?></p>
+								<?php echo $slide['slider_content']; ?>
 								<?php if( $slide['slider_link'] || $slide['slider_link_two'] ) : ?>
 									<div class="btn-container clearfix">
 										<?php if( $slide['slider_link'] ) : ?>
